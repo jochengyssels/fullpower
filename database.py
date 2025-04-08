@@ -19,7 +19,7 @@ engine = create_async_engine(
         "server_settings": {
             "timezone": "UTC"
         }
-    }
+    }postgresql+asyncpg://kiteuser:fullpower@localhost/kitesurf
 )
 
 # SessionLocal class
