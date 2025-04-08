@@ -2,7 +2,14 @@ import asyncio
 import schedule
 import time
 import logging
-from weather_service import OpenMeteoWeatherService
+import sys
+import os
+
+# Add the parent directory to the path so we can import modules from there
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+# Import the weather service from the services directory
+from services.weather_service import OpenMeteoWeatherService
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -36,4 +43,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

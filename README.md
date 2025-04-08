@@ -1,255 +1,212 @@
-# Kitespot Weather Application
 
-A full-stack application for kitesurfers to track weather conditions, manage favorite spots, and log sessions. The application provides real-time weather data for kitesurfing spots worldwide, with a focus on wind conditions and optimal kitesurfing windows.
+# Full Power - Kitesurfing Weather Application
 
-## Features
+## Overview
 
-- 🌍 Global kitespot database with detailed information
-- 🌤️ Real-time weather data for each kitespot
-- 💨 Wind condition tracking and forecasting
-- 📊 Golden window calculation for optimal kitesurfing conditions
-- 👤 User profiles with favorite spots
-- 📝 Session logging
-- 🏫 Kiteschool directory
-- 🔄 Automatic weather data updates
+Full Power is a comprehensive kitesurfing application that provides real-time weather data, forecasts, and "golden kite window" calculations to help kitesurfers find the best time and location for their sessions.
 
-## Tech Stack
+## System Architecture
 
-### Backend
-- Python 3.12+
-- FastAPI
-- SQLAlchemy
+The application consists of several components:
+
+1. **FastAPI Backend**: Provides RESTful API endpoints for kitespots, weather data, and user management
+2. **PostgreSQL Database**: Stores kitespot information, user data, and weather forecasts
+3. **Weather Service**: Fetches and processes weather data from Open-Meteo API
+4. **Frontend**: (To be implemented) User interface for accessing the application
+
+## Setup Instructions
+
+### Prerequisites
+
+- Python 3.10+
 - PostgreSQL
-- Open-Meteo API for weather data
-- LocationIQ API for geocoding
-
-### Frontend (To be implemented)
-- React/Next.js
-- TypeScript
-- Tailwind CSS
-
-## Prerequisites
-
-- Python 3.12 or higher
-- PostgreSQL 12 or higher
-- Node.js 18 or higher (for frontend)
 - Virtual environment (recommended)
 
-## Installation
+### Installation
 
 1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/kitespot-weather.git
-cd kitespot-weather
-```
+   \`\`\`bash
+   git clone https://github.com/yourusername/fullpower.git
+   cd fullpower
+   \`\`\`
 
 2. Create and activate a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+   \`\`\`bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   \`\`\`
 
-3. Install Python dependencies:
-```bash
-pip install -r requirements.txt
-```
+3. Install dependencies:
+   \`\`\`bash
+   pip install -r requirements.txt
+   \`\`\`
 
-4. Set up environment variables:
+4. Set up the database:
+   \`\`\`bash
+   # Create a PostgreSQL database
+   createdb fullpower
+   
+   # Update the DATABASE_URL in database.py if needed
+   
+   # Initialize the database schema
+   python update_schema.py
+   
+   # Seed the database with initial data (if available)
+   python seed_db.py
+   \`\`\`
+
+5. Start the FastAPI server:
+   \`\`\`bash
+   python main.py
+   \`\`\`
+
+6. Start the weather service:
+   \`\`\`bash
+   python services/weather_scheduler.py
+   \`\`\`
+
+### Environment Variables
+
 Create a `.env` file in the root directory with the following variables:
-```env
-# Backend environment variables
-DATABASE_URL=postgresql+asyncpg://username:password@localhost/kitesurf
-TOMORROW_API_KEY=your_tomorrow_api_key
+
+\`\`\`
+DATABASE_URL=postgresql+asyncpg://username:password@localhost/fullpower
 LOCATIONIQ_API_KEY=your_locationiq_api_key
+SECRET_KEY=your_secret_key_for_jwt
+\`\`\`
 
-# Frontend environment variables
-NEXT_PUBLIC_API_BASE_URL=http://localhost:8000  # Backend API URL
-```
+## API Documentation
 
-5. Initialize the database:
-```bash
-python update_schema.py
-```
+Once the server is running, you can access the API documentation at:
+- Swagger UI: http://localhost:8000/docs
+- ReDoc: http://localhost:8000/redoc
 
-6. Import initial kitespot data:
-```bash
-python reset_and_import_kitespots.py
-```
+### Main Endpoints
 
-## Running the Application
+- `/api/kitespots`: CRUD operations for kitespots
+- `/api/kitespots/{kitespot_id}/weather`: Get weather data for a specific kitespot
+- `/api/weather`: Get weather data and golden kite window for a location
+- `/api/users`: User management endpoints
 
-### Backend
+## Weather Service
 
-1. Start the API server:
-```bash
-uvicorn main:app --reload
-```
-The API will be available at `http://localhost:8000`
+The weather service fetches and stores hourly weather data for all kitespots in the database. It runs as a separate process and updates the data every hour.
 
-2. Start the weather service (in a separate terminal):
-```bash
-python services/weather_service.py
-```
+### Running the Weather Service
 
-### API Documentation
+\`\`\`bash
+# Run directly
+python services/weather_scheduler.py
 
-Once the server is running, you can access:
-- Swagger UI documentation: `http://localhost:8000/docs`
-- ReDoc documentation: `http://localhost:8000/redoc`
+# Or use the start script
+./start_weather_service.sh
+\`\`\`
 
-## API Endpoints
+### Weather Data Sources
 
-### Kitespots
-- `GET /api/kitespots/` - List all kitespots
-- `GET /api/kitespots/{id}` - Get kitespot details
-- `GET /api/kitespots/{id}/weather` - Get weather data for a kitespot
-
-### Weather
-- `GET /api/weather` - Get weather forecast for a location
-
-### Users
-- `POST /api/users/` - Create a new user
-- `GET /api/users/{id}/favorites` - Get user's favorite spots
-- `POST /api/users/{id}/favorites` - Add a favorite spot
-- `GET /api/users/{id}/sessions` - Get user's sessions
-- `POST /api/users/{id}/sessions` - Log a new session
-
-### Kiteschools
-- `GET /api/kiteschools` - List kiteschools
+The application uses the Open-Meteo API to fetch weather data. The data includes:
+- Temperature
+- Humidity
+- Precipitation
+- Wind speed at different heights (10m, 80m, 120m)
+- Wind direction
+- Wind gusts
 
 ## Database Schema
 
-### KiteSpot
-- id (Primary Key)
-- name
-- description
-- latitude
-- longitude
-- country
-- region
-- city
-- difficulty
-- water_type
-- best_wind_direction
-- best_season
-- created_at
-- updated_at
+### Main Tables
 
-### KiteSpotWeather
-- id (Primary Key)
-- kitespot_id (Foreign Key)
-- timestamp
-- temperature
-- humidity
-- precipitation
-- wind_speed_10m
-- wind_direction_10m
-- cloud_cover
-- visibility
-- created_at
+1. **users**: User account information
+2. **kitespots**: Information about kitesurfing locations
+3. **kitespot_weather**: Hourly weather data for each kitespot
 
-### User
-- id (Primary Key)
-- email
-- hashed_password
-- is_active
-- is_superuser
-- created_at
-- updated_at
+### Updating the Schema
 
-### FavoriteSpot
-- id (Primary Key)
-- user_id (Foreign Key)
-- kitespot_id (Foreign Key)
-- created_at
+If you make changes to the models, run the update_schema.py script to apply the changes to the database:
 
-### KiteSession
-- id (Primary Key)
-- user_id (Foreign Key)
-- kitespot_id (Foreign Key)
-- date
-- duration_minutes
-- kite_size
-- wind_speed
-- notes
-- created_at
+\`\`\`bash
+python update_schema.py
+\`\`\`
 
-### KiteSchool
-- id (Primary Key)
-- company_name
-- location
-- country
-- google_review_score
-- owner_name
-- website_url
-- course_pricing
-- created_at
+## Troubleshooting
 
-## Development
+### Common Issues
 
-### Code Structure
-```
-.
-├── main.py              # FastAPI application entry point
-├── models.py            # SQLAlchemy models
-├── schemas.py           # Pydantic schemas
-├── crud.py             # Database operations
-├── database.py         # Database configuration
-├── services/           # Service modules
-│   ├── weather_service.py
-│   └── geocoding.py
-├── data/               # Data files
-│   └── kitespots.csv
-└── tests/              # Test files
-```
+1. **Database connection errors**:
+   - Check that PostgreSQL is running
+   - Verify the DATABASE_URL in database.py or .env file
+   - Ensure the database exists and the user has proper permissions
+
+2. **API key errors**:
+   - Verify that all required API keys are set in the .env file
+   - Check for API usage limits
+
+3. **Import errors**:
+   - Ensure all dependencies are installed
+   - Check that you're running commands from the project root directory
+
+### Logs
+
+- Application logs are written to the console by default
+- Weather service logs are written to weather_service.log when running in the background
+
+## Development Guidelines
 
 ### Adding New Features
 
-1. Create new models in `models.py`
-2. Define Pydantic schemas in `schemas.py`
-3. Implement CRUD operations in `crud.py`
-4. Add new endpoints in `main.py`
-5. Update the database schema using `update_schema.py`
+1. Create a new branch for your feature
+2. Implement the feature with appropriate tests
+3. Update the README.md if necessary
+4. Submit a pull request
 
-### Testing
+### Code Style
 
-Run tests using pytest:
-```bash
-pytest
-```
+- Follow PEP 8 guidelines for Python code
+- Use async/await for database operations and external API calls
+- Document all functions and classes with docstrings
 
-## Deployment
+## Scripts
 
-### Backend Deployment
+### start_backend.sh
 
-1. Set up a PostgreSQL database
-2. Configure environment variables
-3. Run database migrations
-4. Deploy using a process manager (e.g., PM2, Supervisor)
-5. Set up a reverse proxy (e.g., Nginx)
+Starts the FastAPI backend server:
 
-### Frontend Deployment
+\`\`\`bash
+#!/bin/bash
+source venv/bin/activate
+python main.py
+\`\`\`
 
-1. Build the frontend application
-2. Deploy to a static hosting service or CDN
-3. Configure environment variables
-4. Set up CI/CD pipeline
+### start_weather_service.sh
 
-## Contributing
+Starts the weather service in the background:
 
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
+\`\`\`bash
+#!/bin/bash
+source venv/bin/activate
+python services/weather_scheduler.py > weather_service.log 2>&1 &
+echo $! > weather_service.pid
+\`\`\`
+
+### stop_weather_service.sh
+
+Stops the weather service:
+
+\`\`\`bash
+#!/bin/bash
+if [ -f weather_service.pid ]; then
+    kill $(cat weather_service.pid)
+    rm weather_service.pid
+fi
+\`\`\`
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+[Your license information here]
 
-## Acknowledgments
+## Contact
 
-- Open-Meteo for weather data
-- LocationIQ for geocoding services
-- All contributors and users of the application
+[Your contact information here]
+\`\`\`
 
+Let's also create a specific README for the weather service:

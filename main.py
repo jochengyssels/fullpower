@@ -20,7 +20,8 @@ from database import get_db
 import models
 import schemas
 import crud
-from models import KiteSchool
+
+from models import KiteSchool, KiteSpot
 from sqlalchemy import select
 
 
