@@ -1,0 +1,1001 @@
+name,location,country,latitude,longitude,difficulty,water_type
+Dakhla,Africa,Morocco,19.7642,39.5346,Advanced,Waves
+El Gouna,Africa,Egypt,-4.17,127.4744,Beginner,Choppy
+Watamu,Africa,Kenya,23.11,76.9894,Intermediate,Choppy
+Cape Town,Africa,South Africa,-30.0608,9.9658,Advanced,Waves
+Le Morne,Africa,Mauritius,29.1663,32.0109,Advanced,Flat
+Mui Ne,Asia,Vietnam,-25.2202,156.9696,Beginner,Flat
+Kalpitiya,Asia,Sri Lanka,-35.5177,-79.9032,Advanced,Waves
+Phuket,Asia,Thailand,-28.8215,151.2474,Intermediate,Choppy
+Boracay,Asia,Philippines,23.6042,-25.8785,Intermediate,Flat
+Sumba,Asia,Indonesia,-10.2643,124.8098,Intermediate,Choppy
+Tarifa,Europe,Spain,-2.5915,16.6631,Intermediate,Flat
+Lagos,Europe,Portugal,37.2258,-44.0916,Beginner,Flat
+Leucate,Europe,France,12.3346,-39.8051,Intermediate,Waves
+Lo Stagnone,Europe,Italy,-8.8667,11.5043,Advanced,Waves
+Paros,Europe,Greece,-1.7937,-58.8945,Intermediate,Flat
+Scheveningen,Europe,Netherlands,-13.8273,-22.1584,Advanced,Waves
+Perth,Oceania,Australia,-6.5011,84.959,Intermediate,Flat
+Raglan,Oceania,New Zealand,19.4235,31.6965,Advanced,Flat
+Cape Hatteras,North America,USA,-14.2034,152.5845,Beginner,Choppy
+Isla Blanca,North America,Mexico,-39.3376,-25.5484,Intermediate,Flat
+Lake Erie,North America,Canada,-22.9631,49.813,Advanced,Flat
+Jericoacoara,South America,Brazil,-35.0039,18.2498,Intermediate,Waves
+Cumbuco,South America,Brazil,4.0688,-74.2127,Advanced,Flat
+Santa Veronica,South America,Colombia,3.7845,-66.8157,Beginner,Waves
+Paracas,South America,Peru,-33.0947,155.0488,Advanced,Choppy
+Dakhla,Africa,Morocco,-3.7415,156.7321,Beginner,Flat
+El Gouna,Africa,Egypt,-32.8603,154.9702,Intermediate,Flat
+Watamu,Africa,Kenya,24.1059,17.5031,Beginner,Flat
+Cape Town,Africa,South Africa,36.2347,150.4465,Advanced,Flat
+Le Morne,Africa,Mauritius,-10.8842,157.292,Beginner,Waves
+Mui Ne,Asia,Vietnam,-25.3019,-59.156,Beginner,Choppy
+Kalpitiya,Asia,Sri Lanka,-4.2685,-71.7616,Beginner,Flat
+Phuket,Asia,Thailand,33.6912,49.9424,Advanced,Choppy
+Boracay,Asia,Philippines,-19.0678,32.3187,Advanced,Choppy
+Sumba,Asia,Indonesia,31.7352,-36.999,Advanced,Flat
+Tarifa,Europe,Spain,-9.2367,13.3903,Beginner,Waves
+Lagos,Europe,Portugal,24.6356,-67.2195,Beginner,Choppy
+Leucate,Europe,France,-7.8073,65.1314,Intermediate,Choppy
+Lo Stagnone,Europe,Italy,-11.4967,-33.8548,Beginner,Waves
+Paros,Europe,Greece,39.6458,148.1945,Beginner,Flat
+Scheveningen,Europe,Netherlands,-14.5921,88.5227,Intermediate,Waves
+Perth,Oceania,Australia,0.956,-31.8664,Beginner,Flat
+Raglan,Oceania,New Zealand,-16.3569,42.0838,Advanced,Choppy
+Cape Hatteras,North America,USA,-0.99,-72.0057,Beginner,Choppy
+Isla Blanca,North America,Mexico,-19.3881,-79.7479,Beginner,Flat
+Lake Erie,North America,Canada,10.0486,-5.953,Intermediate,Flat
+Jericoacoara,South America,Brazil,33.8786,-57.5678,Beginner,Flat
+Cumbuco,South America,Brazil,-7.9397,-38.9142,Advanced,Waves
+Santa Veronica,South America,Colombia,-34.6905,111.5115,Intermediate,Flat
+Paracas,South America,Peru,-17.1077,49.7445,Intermediate,Flat
+Dakhla,Africa,Morocco,26.8763,56.9183,Advanced,Flat
+El Gouna,Africa,Egypt,23.9707,78.9072,Advanced,Choppy
+Watamu,Africa,Kenya,-17.6529,18.4501,Intermediate,Choppy
+Cape Town,Africa,South Africa,-37.3004,125.8706,Advanced,Flat
+Le Morne,Africa,Mauritius,13.1246,10.4146,Advanced,Flat
+Mui Ne,Asia,Vietnam,-3.2791,-71.7395,Intermediate,Waves
+Kalpitiya,Asia,Sri Lanka,28.5355,90.6067,Beginner,Waves
+Phuket,Asia,Thailand,-12.204,-3.3872,Intermediate,Flat
+Boracay,Asia,Philippines,34.318,58.1939,Advanced,Flat
+Sumba,Asia,Indonesia,0.0272,67.4699,Intermediate,Flat
+Tarifa,Europe,Spain,-33.7334,-25.6145,Intermediate,Choppy
+Lagos,Europe,Portugal,-34.063,-64.5606,Beginner,Choppy
+Leucate,Europe,France,1.1432,57.3316,Beginner,Flat
+Lo Stagnone,Europe,Italy,-10.5359,-63.3026,Advanced,Flat
+Paros,Europe,Greece,32.589,-60.0464,Beginner,Choppy
+Scheveningen,Europe,Netherlands,9.5132,79.985,Beginner,Waves
+Perth,Oceania,Australia,-16.0052,116.1046,Intermediate,Flat
+Raglan,Oceania,New Zealand,38.2007,105.2622,Beginner,Flat
+Cape Hatteras,North America,USA,31.4087,94.8103,Intermediate,Waves
+Isla Blanca,North America,Mexico,-39.6993,-8.7095,Advanced,Flat
+Lake Erie,North America,Canada,-15.3783,119.0166,Advanced,Flat
+Jericoacoara,South America,Brazil,10.5298,21.2279,Intermediate,Waves
+Cumbuco,South America,Brazil,13.3236,-28.9232,Intermediate,Choppy
+Santa Veronica,South America,Colombia,-27.6675,-71.9149,Intermediate,Flat
+Paracas,South America,Peru,-15.0223,143.0158,Intermediate,Waves
+Dakhla,Africa,Morocco,-22.2757,157.4265,Beginner,Flat
+El Gouna,Africa,Egypt,28.8554,-43.5761,Intermediate,Choppy
+Watamu,Africa,Kenya,25.3627,159.8897,Intermediate,Choppy
+Cape Town,Africa,South Africa,-8.6961,65.2836,Intermediate,Choppy
+Le Morne,Africa,Mauritius,-13.7392,113.7882,Intermediate,Flat
+Mui Ne,Asia,Vietnam,12.2097,-52.0943,Intermediate,Flat
+Kalpitiya,Asia,Sri Lanka,-9.476,-41.1071,Intermediate,Choppy
+Phuket,Asia,Thailand,30.7722,72.4403,Beginner,Flat
+Boracay,Asia,Philippines,-24.1402,8.9445,Beginner,Flat
+Sumba,Asia,Indonesia,24.7528,-79.1507,Beginner,Flat
+Tarifa,Europe,Spain,0.4535,146.8745,Intermediate,Flat
+Lagos,Europe,Portugal,-37.8167,129.5524,Intermediate,Waves
+Leucate,Europe,France,8.9921,-32.293,Intermediate,Flat
+Lo Stagnone,Europe,Italy,14.5061,-50.5502,Beginner,Flat
+Paros,Europe,Greece,-10.7586,86.7703,Advanced,Choppy
+Scheveningen,Europe,Netherlands,-23.1926,93.0909,Advanced,Flat
+Perth,Oceania,Australia,31.7299,-18.4653,Advanced,Choppy
+Raglan,Oceania,New Zealand,0.7053,-76.2441,Advanced,Waves
+Cape Hatteras,North America,USA,-12.0461,60.6614,Intermediate,Waves
+Isla Blanca,North America,Mexico,17.1914,-4.0449,Intermediate,Choppy
+Lake Erie,North America,Canada,12.1633,-55.4435,Intermediate,Waves
+Jericoacoara,South America,Brazil,35.5854,126.7979,Beginner,Choppy
+Cumbuco,South America,Brazil,-5.9199,158.695,Advanced,Waves
+Santa Veronica,South America,Colombia,21.6349,-51.2117,Intermediate,Choppy
+Paracas,South America,Peru,-29.0974,43.2749,Beginner,Flat
+Dakhla,Africa,Morocco,23.0508,11.2762,Advanced,Flat
+El Gouna,Africa,Egypt,7.8719,126.5131,Advanced,Waves
+Watamu,Africa,Kenya,-17.8796,89.588,Beginner,Waves
+Cape Town,Africa,South Africa,-2.063,39.9984,Intermediate,Choppy
+Le Morne,Africa,Mauritius,33.9116,-76.6451,Advanced,Flat
+Mui Ne,Asia,Vietnam,35.481,84.5408,Intermediate,Waves
+Kalpitiya,Asia,Sri Lanka,-19.2413,62.1181,Advanced,Waves
+Phuket,Asia,Thailand,-38.9182,-46.4514,Beginner,Flat
+Boracay,Asia,Philippines,37.5745,145.6234,Advanced,Choppy
+Sumba,Asia,Indonesia,9.024,-33.7636,Intermediate,Waves
+Tarifa,Europe,Spain,32.0361,13.7936,Beginner,Choppy
+Lagos,Europe,Portugal,14.3903,7.7403,Advanced,Flat
+Leucate,Europe,France,-1.9369,20.4758,Advanced,Flat
+Lo Stagnone,Europe,Italy,-18.3878,-57.1822,Advanced,Choppy
+Paros,Europe,Greece,-5.78,151.867,Advanced,Choppy
+Scheveningen,Europe,Netherlands,-33.5418,-57.1552,Advanced,Waves
+Perth,Oceania,Australia,39.6616,142.4711,Beginner,Choppy
+Raglan,Oceania,New Zealand,23.6113,120.4221,Intermediate,Choppy
+Cape Hatteras,North America,USA,-13.4201,132.6895,Advanced,Flat
+Isla Blanca,North America,Mexico,15.5983,-35.8232,Intermediate,Choppy
+Lake Erie,North America,Canada,25.6814,44.1553,Intermediate,Waves
+Jericoacoara,South America,Brazil,17.5635,-68.654,Advanced,Choppy
+Cumbuco,South America,Brazil,21.509,-15.2471,Beginner,Flat
+Santa Veronica,South America,Colombia,-3.8074,116.9391,Beginner,Choppy
+Paracas,South America,Peru,-33.6269,69.6223,Intermediate,Choppy
+Dakhla,Africa,Morocco,-22.07,-25.3141,Advanced,Flat
+El Gouna,Africa,Egypt,-7.3699,96.9024,Advanced,Flat
+Watamu,Africa,Kenya,-2.7454,-50.6926,Advanced,Waves
+Cape Town,Africa,South Africa,-39.2548,59.2239,Intermediate,Choppy
+Le Morne,Africa,Mauritius,1.8456,8.2191,Intermediate,Waves
+Mui Ne,Asia,Vietnam,-33.1129,18.3591,Beginner,Flat
+Kalpitiya,Asia,Sri Lanka,13.1035,-4.6493,Advanced,Waves
+Phuket,Asia,Thailand,-36.2451,81.401,Beginner,Choppy
+Boracay,Asia,Philippines,26.3665,119.5428,Advanced,Choppy
+Sumba,Asia,Indonesia,-24.2384,-10.6746,Intermediate,Choppy
+Tarifa,Europe,Spain,10.7422,99.8162,Advanced,Flat
+Lagos,Europe,Portugal,11.4304,33.2105,Advanced,Flat
+Leucate,Europe,France,-5.4809,12.588,Advanced,Waves
+Lo Stagnone,Europe,Italy,28.5697,36.4991,Intermediate,Waves
+Paros,Europe,Greece,-30.4691,44.5745,Intermediate,Waves
+Scheveningen,Europe,Netherlands,-25.2835,119.2319,Advanced,Choppy
+Perth,Oceania,Australia,14.2112,-5.1024,Intermediate,Choppy
+Raglan,Oceania,New Zealand,23.0934,39.2232,Beginner,Flat
+Cape Hatteras,North America,USA,39.1612,-29.8161,Intermediate,Waves
+Isla Blanca,North America,Mexico,-12.6762,147.2774,Advanced,Waves
+Lake Erie,North America,Canada,25.8446,-70.3393,Beginner,Waves
+Jericoacoara,South America,Brazil,17.5879,-18.0177,Beginner,Waves
+Cumbuco,South America,Brazil,31.4172,-65.132,Beginner,Choppy
+Santa Veronica,South America,Colombia,15.6641,106.0313,Beginner,Choppy
+Paracas,South America,Peru,38.0293,127.1802,Intermediate,Choppy
+Dakhla,Africa,Morocco,-24.8935,-69.7803,Beginner,Flat
+El Gouna,Africa,Egypt,-37.2814,29.1654,Advanced,Flat
+Watamu,Africa,Kenya,25.0506,-24.7198,Advanced,Choppy
+Cape Town,Africa,South Africa,-22.4085,124.8472,Intermediate,Waves
+Le Morne,Africa,Mauritius,19.9538,138.8601,Beginner,Choppy
+Mui Ne,Asia,Vietnam,31.3483,-66.6437,Beginner,Choppy
+Kalpitiya,Asia,Sri Lanka,-17.8024,-2.9771,Beginner,Waves
+Phuket,Asia,Thailand,-2.4895,28.4851,Intermediate,Flat
+Boracay,Asia,Philippines,-33.9051,56.6173,Advanced,Waves
+Sumba,Asia,Indonesia,-25.9862,-48.1513,Intermediate,Waves
+Tarifa,Europe,Spain,22.8358,-51.3264,Advanced,Choppy
+Lagos,Europe,Portugal,-35.468,-53.6285,Beginner,Flat
+Leucate,Europe,France,5.3786,-2.7827,Beginner,Flat
+Lo Stagnone,Europe,Italy,17.7395,-65.589,Advanced,Waves
+Paros,Europe,Greece,-39.3007,42.6195,Intermediate,Waves
+Scheveningen,Europe,Netherlands,-18.6344,82.4051,Beginner,Waves
+Perth,Oceania,Australia,11.2398,-71.5792,Advanced,Waves
+Raglan,Oceania,New Zealand,21.6022,-43.7198,Advanced,Choppy
+Cape Hatteras,North America,USA,5.7073,55.7051,Intermediate,Choppy
+Isla Blanca,North America,Mexico,26.9327,107.9376,Intermediate,Waves
+Lake Erie,North America,Canada,-29.3853,111.9056,Intermediate,Waves
+Jericoacoara,South America,Brazil,1.8837,71.6201,Advanced,Flat
+Cumbuco,South America,Brazil,33.7346,17.8082,Beginner,Flat
+Santa Veronica,South America,Colombia,27.9185,-45.1318,Intermediate,Choppy
+Paracas,South America,Peru,30.6804,-59.7674,Beginner,Choppy
+Dakhla,Africa,Morocco,28.401,149.2353,Intermediate,Flat
+El Gouna,Africa,Egypt,22.6483,-60.5838,Beginner,Waves
+Watamu,Africa,Kenya,3.2591,29.9605,Beginner,Flat
+Cape Town,Africa,South Africa,31.4579,119.9878,Intermediate,Flat
+Le Morne,Africa,Mauritius,37.2195,-18.5773,Intermediate,Flat
+Mui Ne,Asia,Vietnam,-2.9298,69.983,Intermediate,Choppy
+Kalpitiya,Asia,Sri Lanka,23.8344,-78.2461,Advanced,Choppy
+Phuket,Asia,Thailand,-11.0305,91.9789,Beginner,Waves
+Boracay,Asia,Philippines,1.5537,-46.5775,Intermediate,Flat
+Sumba,Asia,Indonesia,-6.1247,25.9151,Beginner,Waves
+Tarifa,Europe,Spain,10.1797,147.665,Beginner,Waves
+Lagos,Europe,Portugal,34.7568,-55.4063,Beginner,Waves
+Leucate,Europe,France,25.3432,44.7077,Advanced,Choppy
+Lo Stagnone,Europe,Italy,1.1693,76.2598,Advanced,Flat
+Paros,Europe,Greece,17.1352,41.3049,Beginner,Waves
+Scheveningen,Europe,Netherlands,-0.8095,45.3306,Beginner,Choppy
+Perth,Oceania,Australia,33.691,-54.9782,Intermediate,Flat
+Raglan,Oceania,New Zealand,-15.7071,-40.5924,Intermediate,Choppy
+Cape Hatteras,North America,USA,17.9464,118.0527,Advanced,Flat
+Isla Blanca,North America,Mexico,10.0569,59.4003,Advanced,Flat
+Lake Erie,North America,Canada,38.2302,12.875,Intermediate,Flat
+Jericoacoara,South America,Brazil,15.6266,-35.9186,Intermediate,Flat
+Cumbuco,South America,Brazil,24.7948,106.1255,Advanced,Flat
+Santa Veronica,South America,Colombia,-4.6004,129.6,Beginner,Choppy
+Paracas,South America,Peru,-15.4025,88.4979,Advanced,Waves
+Dakhla,Africa,Morocco,-21.4995,120.6213,Advanced,Choppy
+El Gouna,Africa,Egypt,23.4085,-20.341,Beginner,Waves
+Watamu,Africa,Kenya,31.2362,-79.1716,Intermediate,Choppy
+Cape Town,Africa,South Africa,3.4666,-42.1527,Advanced,Flat
+Le Morne,Africa,Mauritius,23.4794,-64.6747,Intermediate,Choppy
+Mui Ne,Asia,Vietnam,7.9999,-77.49,Advanced,Flat
+Kalpitiya,Asia,Sri Lanka,-18.6709,67.2652,Advanced,Choppy
+Phuket,Asia,Thailand,-30.4432,159.6888,Intermediate,Waves
+Boracay,Asia,Philippines,3.8014,-47.4414,Advanced,Waves
+Sumba,Asia,Indonesia,12.9247,23.7044,Advanced,Choppy
+Tarifa,Europe,Spain,10.7075,-51.7232,Beginner,Choppy
+Lagos,Europe,Portugal,-7.2373,1.4877,Intermediate,Flat
+Leucate,Europe,France,8.451,-16.7747,Intermediate,Waves
+Lo Stagnone,Europe,Italy,-6.1169,99.1226,Intermediate,Waves
+Paros,Europe,Greece,16.9177,-32.4765,Advanced,Waves
+Scheveningen,Europe,Netherlands,4.7574,81.3431,Beginner,Flat
+Perth,Oceania,Australia,26.4364,68.4264,Advanced,Choppy
+Raglan,Oceania,New Zealand,-1.8522,53.0183,Beginner,Waves
+Cape Hatteras,North America,USA,1.334,-34.5666,Intermediate,Waves
+Isla Blanca,North America,Mexico,10.2468,4.3379,Advanced,Choppy
+Lake Erie,North America,Canada,25.1387,1.4338,Beginner,Flat
+Jericoacoara,South America,Brazil,27.6389,-47.2169,Beginner,Flat
+Cumbuco,South America,Brazil,7.659,79.7945,Intermediate,Flat
+Santa Veronica,South America,Colombia,23.6543,-49.4487,Beginner,Choppy
+Paracas,South America,Peru,11.3556,2.9482,Advanced,Flat
+Dakhla,Africa,Morocco,-25.3491,70.6221,Beginner,Waves
+El Gouna,Africa,Egypt,38.3578,132.4304,Advanced,Choppy
+Watamu,Africa,Kenya,38.3602,70.0724,Intermediate,Waves
+Cape Town,Africa,South Africa,30.7212,-30.5131,Advanced,Flat
+Le Morne,Africa,Mauritius,-26.4523,22.3445,Advanced,Choppy
+Mui Ne,Asia,Vietnam,-6.2812,69.5148,Beginner,Waves
+Kalpitiya,Asia,Sri Lanka,-8.4005,10.2916,Advanced,Waves
+Phuket,Asia,Thailand,-33.0403,-61.5932,Beginner,Waves
+Boracay,Asia,Philippines,-6.1259,-63.6222,Intermediate,Choppy
+Sumba,Asia,Indonesia,-6.5175,-29.3761,Advanced,Choppy
+Tarifa,Europe,Spain,33.3116,137.1599,Advanced,Choppy
+Lagos,Europe,Portugal,34.0026,111.8689,Intermediate,Flat
+Leucate,Europe,France,-18.8894,-66.4147,Beginner,Waves
+Lo Stagnone,Europe,Italy,11.792,-78.8666,Intermediate,Flat
+Paros,Europe,Greece,-24.3418,23.8456,Beginner,Flat
+Scheveningen,Europe,Netherlands,-14.8236,105.2991,Beginner,Waves
+Perth,Oceania,Australia,32.1802,-26.5972,Advanced,Waves
+Raglan,Oceania,New Zealand,33.8711,113.4276,Intermediate,Choppy
+Cape Hatteras,North America,USA,11.5868,-35.1462,Advanced,Flat
+Isla Blanca,North America,Mexico,-10.7519,53.7938,Intermediate,Choppy
+Lake Erie,North America,Canada,-6.0011,116.0576,Intermediate,Waves
+Jericoacoara,South America,Brazil,31.2318,146.9095,Advanced,Choppy
+Cumbuco,South America,Brazil,-0.0795,29.3423,Intermediate,Flat
+Santa Veronica,South America,Colombia,-20.7021,16.4624,Advanced,Waves
+Paracas,South America,Peru,-21.7182,-46.943,Advanced,Choppy
+Dakhla,Africa,Morocco,-0.688,-5.1481,Intermediate,Waves
+El Gouna,Africa,Egypt,-10.909,10.3495,Beginner,Choppy
+Watamu,Africa,Kenya,4.5335,80.9706,Beginner,Waves
+Cape Town,Africa,South Africa,-5.9261,64.3187,Beginner,Choppy
+Le Morne,Africa,Mauritius,-2.5346,-30.4009,Beginner,Flat
+Mui Ne,Asia,Vietnam,10.3322,73.8601,Advanced,Choppy
+Kalpitiya,Asia,Sri Lanka,-0.1451,5.6425,Beginner,Waves
+Phuket,Asia,Thailand,26.2094,144.4138,Advanced,Waves
+Boracay,Asia,Philippines,39.1082,-66.3439,Beginner,Flat
+Sumba,Asia,Indonesia,-30.8308,23.6737,Advanced,Flat
+Tarifa,Europe,Spain,24.9133,122.997,Intermediate,Flat
+Lagos,Europe,Portugal,-22.5209,-12.2339,Beginner,Waves
+Leucate,Europe,France,-4.3962,125.9213,Beginner,Waves
+Lo Stagnone,Europe,Italy,-33.9187,37.4621,Intermediate,Choppy
+Paros,Europe,Greece,22.7872,-27.0513,Advanced,Waves
+Scheveningen,Europe,Netherlands,-6.2891,142.9631,Beginner,Waves
+Perth,Oceania,Australia,-2.241,-36.8582,Beginner,Flat
+Raglan,Oceania,New Zealand,-13.378,6.6506,Beginner,Flat
+Cape Hatteras,North America,USA,-36.3607,93.8735,Advanced,Waves
+Isla Blanca,North America,Mexico,23.7858,126.8505,Intermediate,Flat
+Lake Erie,North America,Canada,33.8124,-49.0014,Intermediate,Choppy
+Jericoacoara,South America,Brazil,-23.8203,-6.9024,Beginner,Choppy
+Cumbuco,South America,Brazil,-9.8904,-46.5273,Advanced,Flat
+Santa Veronica,South America,Colombia,14.6652,98.4583,Beginner,Waves
+Paracas,South America,Peru,28.9664,123.1411,Beginner,Choppy
+Dakhla,Africa,Morocco,12.6157,16.2799,Beginner,Waves
+El Gouna,Africa,Egypt,1.7495,-38.0264,Intermediate,Flat
+Watamu,Africa,Kenya,9.1969,106.6194,Beginner,Waves
+Cape Town,Africa,South Africa,-34.7149,111.3111,Beginner,Flat
+Le Morne,Africa,Mauritius,-35.3395,-15.4034,Beginner,Choppy
+Mui Ne,Asia,Vietnam,38.2485,143.8196,Intermediate,Waves
+Kalpitiya,Asia,Sri Lanka,14.0062,97.567,Advanced,Choppy
+Phuket,Asia,Thailand,-7.9022,133.5825,Intermediate,Flat
+Boracay,Asia,Philippines,-21.0518,-37.1725,Advanced,Choppy
+Sumba,Asia,Indonesia,-39.0103,-14.1631,Intermediate,Choppy
+Tarifa,Europe,Spain,11.5259,-59.0289,Advanced,Waves
+Lagos,Europe,Portugal,26.6081,104.8498,Beginner,Waves
+Leucate,Europe,France,13.5328,46.3493,Beginner,Choppy
+Lo Stagnone,Europe,Italy,-2.0716,21.264,Advanced,Choppy
+Paros,Europe,Greece,27.2496,-34.2095,Advanced,Flat
+Scheveningen,Europe,Netherlands,-24.4946,41.5396,Advanced,Choppy
+Perth,Oceania,Australia,-34.5808,62.5401,Intermediate,Waves
+Raglan,Oceania,New Zealand,21.6122,101.6393,Advanced,Waves
+Cape Hatteras,North America,USA,-30.1566,-38.5767,Advanced,Flat
+Isla Blanca,North America,Mexico,-21.5583,76.0978,Advanced,Choppy
+Lake Erie,North America,Canada,-20.3737,55.47,Beginner,Choppy
+Jericoacoara,South America,Brazil,-1.9518,-60.0225,Intermediate,Flat
+Cumbuco,South America,Brazil,6.2262,-14.896,Intermediate,Flat
+Santa Veronica,South America,Colombia,3.8446,102.6506,Beginner,Waves
+Paracas,South America,Peru,-17.9697,19.0524,Intermediate,Waves
+Dakhla,Africa,Morocco,17.5101,91.651,Advanced,Flat
+El Gouna,Africa,Egypt,-15.1244,81.088,Beginner,Choppy
+Watamu,Africa,Kenya,-14.0462,-21.8965,Advanced,Flat
+Cape Town,Africa,South Africa,32.6014,116.895,Intermediate,Flat
+Le Morne,Africa,Mauritius,38.7311,13.3626,Intermediate,Choppy
+Mui Ne,Asia,Vietnam,4.2831,118.6219,Beginner,Waves
+Kalpitiya,Asia,Sri Lanka,8.603,-51.7892,Advanced,Flat
+Phuket,Asia,Thailand,-17.639,67.1609,Beginner,Choppy
+Boracay,Asia,Philippines,-26.504,61.3929,Intermediate,Waves
+Sumba,Asia,Indonesia,-26.0339,-20.6979,Intermediate,Flat
+Tarifa,Europe,Spain,-35.7632,20.8783,Advanced,Waves
+Lagos,Europe,Portugal,-27.2547,101.787,Advanced,Waves
+Leucate,Europe,France,1.457,95.3685,Advanced,Waves
+Lo Stagnone,Europe,Italy,-24.8945,69.0428,Intermediate,Choppy
+Paros,Europe,Greece,-26.9462,57.7109,Advanced,Waves
+Scheveningen,Europe,Netherlands,-37.8939,4.1741,Beginner,Flat
+Perth,Oceania,Australia,-5.8587,6.8947,Intermediate,Choppy
+Raglan,Oceania,New Zealand,-6.4152,0.6404,Beginner,Waves
+Cape Hatteras,North America,USA,-2.6206,-52.3692,Intermediate,Choppy
+Isla Blanca,North America,Mexico,-34.4671,112.5024,Advanced,Waves
+Lake Erie,North America,Canada,38.9251,85.5945,Intermediate,Flat
+Jericoacoara,South America,Brazil,-32.2532,20.1052,Beginner,Waves
+Cumbuco,South America,Brazil,25.8182,96.7757,Intermediate,Waves
+Santa Veronica,South America,Colombia,24.1136,145.9892,Intermediate,Choppy
+Paracas,South America,Peru,-27.7461,139.1211,Beginner,Choppy
+Dakhla,Africa,Morocco,10.3935,36.0878,Beginner,Flat
+El Gouna,Africa,Egypt,-8.2537,-59.8699,Advanced,Waves
+Watamu,Africa,Kenya,20.0375,154.0266,Beginner,Choppy
+Cape Town,Africa,South Africa,19.2402,62.4672,Beginner,Flat
+Le Morne,Africa,Mauritius,26.1314,63.7087,Intermediate,Choppy
+Mui Ne,Asia,Vietnam,-32.0363,101.3535,Advanced,Waves
+Kalpitiya,Asia,Sri Lanka,18.7557,103.6534,Intermediate,Flat
+Phuket,Asia,Thailand,4.8625,38.5963,Beginner,Choppy
+Boracay,Asia,Philippines,10.2158,-23.6681,Beginner,Choppy
+Sumba,Asia,Indonesia,-5.766,-53.5853,Advanced,Flat
+Tarifa,Europe,Spain,30.4402,78.4117,Beginner,Choppy
+Lagos,Europe,Portugal,22.9259,1.9,Intermediate,Flat
+Leucate,Europe,France,17.0612,-34.1404,Advanced,Choppy
+Lo Stagnone,Europe,Italy,27.4597,58.9505,Advanced,Choppy
+Paros,Europe,Greece,19.8266,74.812,Advanced,Flat
+Scheveningen,Europe,Netherlands,18.5191,104.5928,Advanced,Waves
+Perth,Oceania,Australia,-36.1423,-64.2693,Intermediate,Flat
+Raglan,Oceania,New Zealand,17.9657,43.2887,Intermediate,Waves
+Cape Hatteras,North America,USA,24.3041,-33.4556,Beginner,Choppy
+Isla Blanca,North America,Mexico,6.116,14.6983,Intermediate,Choppy
+Lake Erie,North America,Canada,15.6757,15.0182,Beginner,Flat
+Jericoacoara,South America,Brazil,-3.4349,75.1702,Intermediate,Flat
+Cumbuco,South America,Brazil,37.5988,50.4492,Intermediate,Waves
+Santa Veronica,South America,Colombia,24.3498,125.5116,Intermediate,Choppy
+Paracas,South America,Peru,12.5303,146.0473,Beginner,Waves
+Dakhla,Africa,Morocco,2.8147,14.5067,Beginner,Flat
+El Gouna,Africa,Egypt,-19.5253,10.81,Beginner,Flat
+Watamu,Africa,Kenya,16.9518,57.2627,Advanced,Flat
+Cape Town,Africa,South Africa,-29.6328,71.31,Intermediate,Choppy
+Le Morne,Africa,Mauritius,9.0129,-13.4798,Intermediate,Flat
+Mui Ne,Asia,Vietnam,13.0627,56.1665,Intermediate,Flat
+Kalpitiya,Asia,Sri Lanka,-31.1212,-2.13,Intermediate,Waves
+Phuket,Asia,Thailand,-37.6187,78.6451,Intermediate,Choppy
+Boracay,Asia,Philippines,34.2976,-16.703,Beginner,Flat
+Sumba,Asia,Indonesia,31.3783,29.687,Intermediate,Waves
+Tarifa,Europe,Spain,-20.7645,-8.5346,Beginner,Waves
+Lagos,Europe,Portugal,-22.5772,89.7545,Intermediate,Waves
+Leucate,Europe,France,-2.6669,23.2042,Advanced,Choppy
+Lo Stagnone,Europe,Italy,-12.4303,134.3163,Advanced,Choppy
+Paros,Europe,Greece,7.7463,-10.9706,Intermediate,Flat
+Scheveningen,Europe,Netherlands,-27.5546,-45.7476,Beginner,Flat
+Perth,Oceania,Australia,35.7723,64.7316,Beginner,Waves
+Raglan,Oceania,New Zealand,-6.207,-68.4784,Intermediate,Waves
+Cape Hatteras,North America,USA,-2.1722,117.5314,Beginner,Choppy
+Isla Blanca,North America,Mexico,-32.1267,-14.6667,Intermediate,Waves
+Lake Erie,North America,Canada,-34.5641,-51.3594,Intermediate,Choppy
+Jericoacoara,South America,Brazil,-22.2698,-65.8773,Beginner,Choppy
+Cumbuco,South America,Brazil,18.9147,85.5699,Intermediate,Choppy
+Santa Veronica,South America,Colombia,18.6394,117.7865,Advanced,Flat
+Paracas,South America,Peru,19.787,-27.8876,Beginner,Choppy
+Dakhla,Africa,Morocco,22.3036,134.318,Intermediate,Waves
+El Gouna,Africa,Egypt,35.6089,112.5202,Beginner,Choppy
+Watamu,Africa,Kenya,29.882,130.7701,Beginner,Waves
+Cape Town,Africa,South Africa,3.1626,-78.3428,Beginner,Waves
+Le Morne,Africa,Mauritius,-23.52,-47.46,Intermediate,Flat
+Mui Ne,Asia,Vietnam,-34.1511,44.7843,Intermediate,Flat
+Kalpitiya,Asia,Sri Lanka,13.4484,115.9878,Beginner,Choppy
+Phuket,Asia,Thailand,-19.3706,73.0131,Intermediate,Flat
+Boracay,Asia,Philippines,-10.2584,-6.6601,Beginner,Waves
+Sumba,Asia,Indonesia,-20.2196,-75.7926,Beginner,Waves
+Tarifa,Europe,Spain,10.5789,85.9596,Intermediate,Flat
+Lagos,Europe,Portugal,-29.4455,25.1695,Beginner,Waves
+Leucate,Europe,France,-29.969,45.3026,Beginner,Flat
+Lo Stagnone,Europe,Italy,28.004,132.0428,Intermediate,Choppy
+Paros,Europe,Greece,-2.5304,59.8987,Beginner,Choppy
+Scheveningen,Europe,Netherlands,-38.604,-15.7059,Intermediate,Waves
+Perth,Oceania,Australia,-2.749,114.507,Intermediate,Choppy
+Raglan,Oceania,New Zealand,34.0075,-65.9181,Intermediate,Flat
+Cape Hatteras,North America,USA,-21.5299,90.4266,Advanced,Waves
+Isla Blanca,North America,Mexico,-18.3668,85.4809,Advanced,Flat
+Lake Erie,North America,Canada,-7.9765,103.5037,Advanced,Choppy
+Jericoacoara,South America,Brazil,-31.1967,-45.9585,Intermediate,Waves
+Cumbuco,South America,Brazil,20.4618,134.7867,Advanced,Choppy
+Santa Veronica,South America,Colombia,16.1472,20.7924,Beginner,Choppy
+Paracas,South America,Peru,-5.6146,-25.88,Advanced,Choppy
+Dakhla,Africa,Morocco,-3.7903,66.9752,Beginner,Flat
+El Gouna,Africa,Egypt,23.3881,68.2012,Intermediate,Waves
+Watamu,Africa,Kenya,30.4772,102.9408,Advanced,Waves
+Cape Town,Africa,South Africa,28.533,113.8039,Intermediate,Flat
+Le Morne,Africa,Mauritius,18.8028,37.5114,Intermediate,Waves
+Mui Ne,Asia,Vietnam,29.0979,121.7277,Intermediate,Flat
+Kalpitiya,Asia,Sri Lanka,-3.8048,83.4388,Beginner,Choppy
+Phuket,Asia,Thailand,36.8802,-20.2924,Advanced,Waves
+Boracay,Asia,Philippines,-39.0384,148.8529,Advanced,Flat
+Sumba,Asia,Indonesia,19.3081,27.9092,Intermediate,Flat
+Tarifa,Europe,Spain,-15.5796,66.913,Advanced,Waves
+Lagos,Europe,Portugal,-39.8545,-20.7935,Intermediate,Waves
+Leucate,Europe,France,34.2294,20.8455,Advanced,Choppy
+Lo Stagnone,Europe,Italy,-27.2545,146.0149,Intermediate,Choppy
+Paros,Europe,Greece,4.7164,94.6824,Beginner,Choppy
+Scheveningen,Europe,Netherlands,-10.7002,-59.7918,Advanced,Waves
+Perth,Oceania,Australia,-39.6814,136.4663,Advanced,Choppy
+Raglan,Oceania,New Zealand,13.658,157.1027,Intermediate,Flat
+Cape Hatteras,North America,USA,-39.366,100.2695,Intermediate,Flat
+Isla Blanca,North America,Mexico,-0.9732,-1.9363,Intermediate,Choppy
+Lake Erie,North America,Canada,-33.0993,83.3354,Intermediate,Choppy
+Jericoacoara,South America,Brazil,18.3486,83.3014,Beginner,Waves
+Cumbuco,South America,Brazil,21.4016,-14.389,Advanced,Waves
+Santa Veronica,South America,Colombia,13.4408,44.5855,Beginner,Choppy
+Paracas,South America,Peru,-24.9381,88.2908,Beginner,Choppy
+Dakhla,Africa,Morocco,1.873,-23.8166,Intermediate,Flat
+El Gouna,Africa,Egypt,-28.2261,59.7361,Advanced,Flat
+Watamu,Africa,Kenya,-21.4965,105.5075,Intermediate,Choppy
+Cape Town,Africa,South Africa,-8.3549,124.6789,Intermediate,Flat
+Le Morne,Africa,Mauritius,17.1996,46.7722,Beginner,Waves
+Mui Ne,Asia,Vietnam,-22.6388,-46.0365,Beginner,Choppy
+Kalpitiya,Asia,Sri Lanka,37.1943,4.6671,Advanced,Choppy
+Phuket,Asia,Thailand,38.8792,108.3642,Beginner,Waves
+Boracay,Asia,Philippines,0.1953,128.4279,Intermediate,Choppy
+Sumba,Asia,Indonesia,39.8573,111.213,Intermediate,Choppy
+Tarifa,Europe,Spain,-4.3841,131.749,Advanced,Waves
+Lagos,Europe,Portugal,32.3673,24.6581,Advanced,Flat
+Leucate,Europe,France,31.9231,104.5701,Beginner,Flat
+Lo Stagnone,Europe,Italy,2.3249,80.2503,Beginner,Choppy
+Paros,Europe,Greece,33.4877,66.1134,Advanced,Waves
+Scheveningen,Europe,Netherlands,23.3379,63.692,Beginner,Waves
+Perth,Oceania,Australia,17.6103,-58.6371,Intermediate,Waves
+Raglan,Oceania,New Zealand,27.5179,81.6952,Beginner,Choppy
+Cape Hatteras,North America,USA,-20.2679,6.3618,Beginner,Flat
+Isla Blanca,North America,Mexico,-5.4682,-76.5016,Beginner,Choppy
+Lake Erie,North America,Canada,-28.5995,131.6924,Advanced,Flat
+Jericoacoara,South America,Brazil,34.9008,38.8567,Advanced,Waves
+Cumbuco,South America,Brazil,26.0428,39.5513,Intermediate,Waves
+Santa Veronica,South America,Colombia,-32.4399,-20.4473,Advanced,Waves
+Paracas,South America,Peru,0.3337,-41.7549,Intermediate,Choppy
+Dakhla,Africa,Morocco,-5.6765,43.8487,Intermediate,Choppy
+El Gouna,Africa,Egypt,-9.0937,150.3139,Intermediate,Waves
+Watamu,Africa,Kenya,-1.8365,53.5677,Intermediate,Flat
+Cape Town,Africa,South Africa,7.9503,-76.512,Advanced,Waves
+Le Morne,Africa,Mauritius,6.1693,79.0739,Intermediate,Choppy
+Mui Ne,Asia,Vietnam,-3.0159,53.4476,Advanced,Choppy
+Kalpitiya,Asia,Sri Lanka,-4.4342,-20.4924,Beginner,Waves
+Phuket,Asia,Thailand,38.5602,-72.2926,Intermediate,Flat
+Boracay,Asia,Philippines,20.7509,-65.5748,Advanced,Waves
+Sumba,Asia,Indonesia,-33.0777,-78.1449,Advanced,Choppy
+Tarifa,Europe,Spain,12.7456,-27.2569,Advanced,Choppy
+Lagos,Europe,Portugal,-0.6101,-79.5218,Advanced,Waves
+Leucate,Europe,France,-20.8556,114.3315,Intermediate,Choppy
+Lo Stagnone,Europe,Italy,9.784,110.7829,Intermediate,Choppy
+Paros,Europe,Greece,-19.1085,-37.7226,Intermediate,Waves
+Scheveningen,Europe,Netherlands,-1.7646,-24.9195,Beginner,Flat
+Perth,Oceania,Australia,35.1614,-71.2434,Advanced,Choppy
+Raglan,Oceania,New Zealand,10.7276,107.249,Beginner,Waves
+Cape Hatteras,North America,USA,-28.9296,14.0559,Beginner,Flat
+Isla Blanca,North America,Mexico,6.5007,99.5575,Intermediate,Choppy
+Lake Erie,North America,Canada,10.4104,45.8557,Intermediate,Choppy
+Jericoacoara,South America,Brazil,8.5316,22.8896,Beginner,Flat
+Cumbuco,South America,Brazil,13.4661,94.1907,Beginner,Choppy
+Santa Veronica,South America,Colombia,2.9917,53.8572,Intermediate,Flat
+Paracas,South America,Peru,-13.1426,138.6795,Beginner,Choppy
+Dakhla,Africa,Morocco,-25.7788,94.4359,Intermediate,Flat
+El Gouna,Africa,Egypt,29.6071,141.1401,Beginner,Choppy
+Watamu,Africa,Kenya,38.9215,17.4318,Beginner,Flat
+Cape Town,Africa,South Africa,-39.6056,-74.4671,Beginner,Flat
+Le Morne,Africa,Mauritius,13.0224,52.1606,Intermediate,Flat
+Mui Ne,Asia,Vietnam,8.9509,26.9176,Beginner,Flat
+Kalpitiya,Asia,Sri Lanka,-2.5032,152.5754,Advanced,Waves
+Phuket,Asia,Thailand,2.1084,-60.9657,Intermediate,Choppy
+Boracay,Asia,Philippines,39.3571,83.797,Beginner,Choppy
+Sumba,Asia,Indonesia,-9.7675,-72.9697,Intermediate,Waves
+Tarifa,Europe,Spain,-35.5527,-14.8613,Intermediate,Flat
+Lagos,Europe,Portugal,7.0181,-78.9043,Beginner,Waves
+Leucate,Europe,France,3.4996,2.8428,Advanced,Choppy
+Lo Stagnone,Europe,Italy,1.8802,-26.3086,Advanced,Flat
+Paros,Europe,Greece,36.2919,26.3489,Beginner,Waves
+Scheveningen,Europe,Netherlands,-23.2979,-51.6218,Beginner,Waves
+Perth,Oceania,Australia,-20.7591,-5.3077,Intermediate,Choppy
+Raglan,Oceania,New Zealand,-19.918,-63.028,Advanced,Choppy
+Cape Hatteras,North America,USA,-19.0662,-63.6957,Intermediate,Choppy
+Isla Blanca,North America,Mexico,32.5608,101.2232,Intermediate,Choppy
+Lake Erie,North America,Canada,10.0902,5.3331,Beginner,Choppy
+Jericoacoara,South America,Brazil,-28.8413,-1.7998,Advanced,Choppy
+Cumbuco,South America,Brazil,-27.9073,148.2789,Advanced,Flat
+Santa Veronica,South America,Colombia,5.6354,110.171,Advanced,Choppy
+Paracas,South America,Peru,31.812,-67.4757,Beginner,Waves
+Dakhla,Africa,Morocco,5.3021,-16.7248,Intermediate,Waves
+El Gouna,Africa,Egypt,-11.3071,145.7071,Beginner,Choppy
+Watamu,Africa,Kenya,-18.3065,34.2732,Advanced,Waves
+Cape Town,Africa,South Africa,-24.4909,82.4067,Advanced,Waves
+Le Morne,Africa,Mauritius,27.1077,141.5449,Advanced,Waves
+Mui Ne,Asia,Vietnam,33.9039,137.6535,Intermediate,Flat
+Kalpitiya,Asia,Sri Lanka,21.4166,25.4073,Beginner,Flat
+Phuket,Asia,Thailand,38.1043,132.1382,Intermediate,Waves
+Boracay,Asia,Philippines,19.3195,35.2871,Advanced,Flat
+Sumba,Asia,Indonesia,-29.257,-21.3413,Advanced,Choppy
+Tarifa,Europe,Spain,7.2064,127.4093,Beginner,Waves
+Lagos,Europe,Portugal,-36.4836,151.3988,Intermediate,Waves
+Leucate,Europe,France,-32.0633,145.4273,Intermediate,Choppy
+Lo Stagnone,Europe,Italy,20.1057,31.4947,Beginner,Choppy
+Paros,Europe,Greece,38.5804,127.7896,Beginner,Choppy
+Scheveningen,Europe,Netherlands,10.792,-78.0952,Beginner,Flat
+Perth,Oceania,Australia,9.3425,133.8985,Advanced,Flat
+Raglan,Oceania,New Zealand,-27.7465,-55.996,Intermediate,Choppy
+Cape Hatteras,North America,USA,36.6657,104.1651,Advanced,Waves
+Isla Blanca,North America,Mexico,-32.9294,-28.5652,Advanced,Waves
+Lake Erie,North America,Canada,-4.9957,78.8071,Intermediate,Choppy
+Jericoacoara,South America,Brazil,-6.339,67.8974,Advanced,Waves
+Cumbuco,South America,Brazil,-36.7469,139.5923,Beginner,Waves
+Santa Veronica,South America,Colombia,-38.9919,-53.6524,Beginner,Flat
+Paracas,South America,Peru,21.1796,-48.365,Beginner,Waves
+Dakhla,Africa,Morocco,6.6748,53.9722,Beginner,Flat
+El Gouna,Africa,Egypt,-3.6612,-10.9764,Intermediate,Flat
+Watamu,Africa,Kenya,36.5568,135.9251,Advanced,Choppy
+Cape Town,Africa,South Africa,3.2841,-22.8129,Advanced,Flat
+Le Morne,Africa,Mauritius,-34.7416,133.1987,Beginner,Choppy
+Mui Ne,Asia,Vietnam,-33.1908,140.8744,Intermediate,Flat
+Kalpitiya,Asia,Sri Lanka,-0.51,121.09,Advanced,Waves
+Phuket,Asia,Thailand,22.0867,-11.6937,Beginner,Flat
+Boracay,Asia,Philippines,-22.9904,-54.1866,Advanced,Flat
+Sumba,Asia,Indonesia,-10.5189,101.6689,Advanced,Choppy
+Tarifa,Europe,Spain,-35.0936,70.0488,Advanced,Flat
+Lagos,Europe,Portugal,-25.2212,47.8567,Beginner,Waves
+Leucate,Europe,France,-35.5691,89.5619,Intermediate,Waves
+Lo Stagnone,Europe,Italy,34.7898,-54.8239,Intermediate,Waves
+Paros,Europe,Greece,3.6084,126.6305,Intermediate,Waves
+Scheveningen,Europe,Netherlands,-18.065,-19.3764,Advanced,Waves
+Perth,Oceania,Australia,13.3931,27.744,Beginner,Choppy
+Raglan,Oceania,New Zealand,1.793,159.2948,Intermediate,Waves
+Cape Hatteras,North America,USA,15.4835,-25.6104,Beginner,Waves
+Isla Blanca,North America,Mexico,-10.5083,150.3394,Advanced,Waves
+Lake Erie,North America,Canada,25.9399,37.1111,Advanced,Waves
+Jericoacoara,South America,Brazil,-33.5001,94.5583,Advanced,Flat
+Cumbuco,South America,Brazil,-6.2735,131.8321,Intermediate,Waves
+Santa Veronica,South America,Colombia,-28.3871,157.2585,Advanced,Flat
+Paracas,South America,Peru,-26.9369,-55.2226,Advanced,Flat
+Dakhla,Africa,Morocco,2.1481,98.8246,Advanced,Flat
+El Gouna,Africa,Egypt,-12.918,70.0284,Intermediate,Waves
+Watamu,Africa,Kenya,-9.3049,85.6467,Beginner,Flat
+Cape Town,Africa,South Africa,-26.3078,101.8983,Intermediate,Waves
+Le Morne,Africa,Mauritius,34.119,27.6662,Intermediate,Waves
+Mui Ne,Asia,Vietnam,-29.4856,93.6256,Beginner,Choppy
+Kalpitiya,Asia,Sri Lanka,6.3022,110.8596,Beginner,Choppy
+Phuket,Asia,Thailand,39.518,-2.5603,Advanced,Choppy
+Boracay,Asia,Philippines,-34.1181,91.9007,Advanced,Choppy
+Sumba,Asia,Indonesia,-16.222,-32.5861,Advanced,Waves
+Tarifa,Europe,Spain,-24.4686,47.835,Advanced,Flat
+Lagos,Europe,Portugal,-33.8848,156.8493,Beginner,Waves
+Leucate,Europe,France,29.0501,24.7909,Advanced,Choppy
+Lo Stagnone,Europe,Italy,21.6063,107.8249,Intermediate,Waves
+Paros,Europe,Greece,-36.9793,-45.5122,Intermediate,Flat
+Scheveningen,Europe,Netherlands,-33.1494,-49.5968,Beginner,Waves
+Perth,Oceania,Australia,29.5791,144.1403,Beginner,Waves
+Raglan,Oceania,New Zealand,-28.9034,102.6638,Beginner,Choppy
+Cape Hatteras,North America,USA,-9.0511,70.6869,Advanced,Flat
+Isla Blanca,North America,Mexico,30.4589,107.2837,Advanced,Choppy
+Lake Erie,North America,Canada,22.8175,-36.8598,Advanced,Flat
+Jericoacoara,South America,Brazil,28.654,-60.414,Beginner,Choppy
+Cumbuco,South America,Brazil,-10.0328,127.6543,Intermediate,Flat
+Santa Veronica,South America,Colombia,11.8433,109.2493,Advanced,Choppy
+Paracas,South America,Peru,8.282,116.268,Intermediate,Choppy
+Dakhla,Africa,Morocco,-32.5688,61.9472,Intermediate,Choppy
+El Gouna,Africa,Egypt,30.4615,-16.779,Advanced,Choppy
+Watamu,Africa,Kenya,-32.2943,74.5906,Intermediate,Waves
+Cape Town,Africa,South Africa,-26.197,41.9275,Advanced,Waves
+Le Morne,Africa,Mauritius,20.5215,82.3265,Beginner,Flat
+Mui Ne,Asia,Vietnam,18.9159,-15.7064,Intermediate,Flat
+Kalpitiya,Asia,Sri Lanka,32.4946,104.2151,Advanced,Choppy
+Phuket,Asia,Thailand,-7.9849,100.604,Intermediate,Waves
+Boracay,Asia,Philippines,36.3939,88.8475,Intermediate,Flat
+Sumba,Asia,Indonesia,10.924,62.8047,Advanced,Waves
+Tarifa,Europe,Spain,28.8695,6.6996,Intermediate,Waves
+Lagos,Europe,Portugal,-30.6402,-76.7404,Beginner,Waves
+Leucate,Europe,France,-5.5129,93.8651,Advanced,Waves
+Lo Stagnone,Europe,Italy,-15.6379,35.7629,Beginner,Waves
+Paros,Europe,Greece,15.1278,14.7704,Beginner,Choppy
+Scheveningen,Europe,Netherlands,-1.3368,-43.0169,Beginner,Choppy
+Perth,Oceania,Australia,5.9741,30.4517,Beginner,Flat
+Raglan,Oceania,New Zealand,-22.6469,-66.8205,Intermediate,Choppy
+Cape Hatteras,North America,USA,30.4243,125.9436,Intermediate,Waves
+Isla Blanca,North America,Mexico,27.9995,-47.7281,Intermediate,Flat
+Lake Erie,North America,Canada,28.3566,89.9257,Beginner,Choppy
+Jericoacoara,South America,Brazil,-13.1171,146.5248,Intermediate,Flat
+Cumbuco,South America,Brazil,-24.2475,-32.9777,Intermediate,Flat
+Santa Veronica,South America,Colombia,11.5041,45.0431,Beginner,Choppy
+Paracas,South America,Peru,-28.9478,-19.5207,Beginner,Flat
+Dakhla,Africa,Morocco,-38.28,152.5123,Advanced,Waves
+El Gouna,Africa,Egypt,20.745,2.6461,Beginner,Choppy
+Watamu,Africa,Kenya,-5.7758,117.6203,Intermediate,Waves
+Cape Town,Africa,South Africa,17.9925,140.335,Beginner,Flat
+Le Morne,Africa,Mauritius,6.5567,151.4912,Advanced,Waves
+Mui Ne,Asia,Vietnam,-7.1396,71.5421,Advanced,Choppy
+Kalpitiya,Asia,Sri Lanka,-19.5888,80.7753,Advanced,Waves
+Phuket,Asia,Thailand,-32.3214,12.0224,Intermediate,Waves
+Boracay,Asia,Philippines,-2.8363,-18.9373,Advanced,Waves
+Sumba,Asia,Indonesia,-25.7361,-53.7586,Advanced,Choppy
+Tarifa,Europe,Spain,-16.4583,91.5149,Intermediate,Waves
+Lagos,Europe,Portugal,16.1669,-27.0539,Intermediate,Flat
+Leucate,Europe,France,-35.0365,50.6308,Intermediate,Waves
+Lo Stagnone,Europe,Italy,36.3621,-58.9795,Beginner,Choppy
+Paros,Europe,Greece,36.2039,148.0264,Advanced,Choppy
+Scheveningen,Europe,Netherlands,14.2749,-30.7531,Advanced,Waves
+Perth,Oceania,Australia,31.9568,-45.0781,Advanced,Choppy
+Raglan,Oceania,New Zealand,-25.2102,106.4442,Intermediate,Waves
+Cape Hatteras,North America,USA,-13.5221,24.4147,Intermediate,Waves
+Isla Blanca,North America,Mexico,8.558,17.4339,Beginner,Waves
+Lake Erie,North America,Canada,20.1024,12.1098,Beginner,Flat
+Jericoacoara,South America,Brazil,-10.1853,88.3995,Beginner,Flat
+Cumbuco,South America,Brazil,-17.6109,-43.6025,Advanced,Waves
+Santa Veronica,South America,Colombia,3.6572,143.4156,Advanced,Choppy
+Paracas,South America,Peru,-14.88,-59.2654,Beginner,Flat
+Dakhla,Africa,Morocco,-6.5002,-76.7931,Advanced,Choppy
+El Gouna,Africa,Egypt,-37.1006,-70.1785,Advanced,Flat
+Watamu,Africa,Kenya,-12.5519,-14.1044,Intermediate,Flat
+Cape Town,Africa,South Africa,-21.2393,73.4867,Advanced,Flat
+Le Morne,Africa,Mauritius,11.8385,19.2576,Beginner,Flat
+Mui Ne,Asia,Vietnam,-9.1006,-21.7059,Advanced,Waves
+Kalpitiya,Asia,Sri Lanka,16.3262,-6.5038,Intermediate,Choppy
+Phuket,Asia,Thailand,35.3549,87.134,Intermediate,Waves
+Boracay,Asia,Philippines,-30.6267,-49.4596,Intermediate,Choppy
+Sumba,Asia,Indonesia,-7.9074,-49.4226,Advanced,Choppy
+Tarifa,Europe,Spain,-4.4452,136.8462,Beginner,Choppy
+Lagos,Europe,Portugal,21.2624,-22.4928,Intermediate,Waves
+Leucate,Europe,France,15.4,146.4542,Advanced,Choppy
+Lo Stagnone,Europe,Italy,-27.4987,-38.6494,Advanced,Choppy
+Paros,Europe,Greece,-38.8193,18.0196,Intermediate,Waves
+Scheveningen,Europe,Netherlands,28.5527,93.38,Beginner,Flat
+Perth,Oceania,Australia,32.9259,137.5573,Intermediate,Choppy
+Raglan,Oceania,New Zealand,16.989,18.9146,Intermediate,Waves
+Cape Hatteras,North America,USA,-8.9117,-25.8925,Advanced,Waves
+Isla Blanca,North America,Mexico,-2.2804,146.7852,Advanced,Choppy
+Lake Erie,North America,Canada,-0.3953,59.9604,Intermediate,Choppy
+Jericoacoara,South America,Brazil,-33.8308,-62.7384,Advanced,Flat
+Cumbuco,South America,Brazil,23.5315,41.6355,Advanced,Choppy
+Santa Veronica,South America,Colombia,-16.9359,86.4807,Advanced,Waves
+Paracas,South America,Peru,17.4843,131.0744,Advanced,Waves
+Dakhla,Africa,Morocco,2.8214,117.2056,Beginner,Flat
+El Gouna,Africa,Egypt,19.0128,-59.0566,Intermediate,Flat
+Watamu,Africa,Kenya,-30.581,-55.9126,Beginner,Waves
+Cape Town,Africa,South Africa,-12.8659,-57.5593,Beginner,Flat
+Le Morne,Africa,Mauritius,9.9672,143.148,Intermediate,Flat
+Mui Ne,Asia,Vietnam,-7.8576,64.5558,Advanced,Choppy
+Kalpitiya,Asia,Sri Lanka,-28.1908,119.2265,Intermediate,Choppy
+Phuket,Asia,Thailand,-32.8134,-25.7668,Beginner,Flat
+Boracay,Asia,Philippines,8.1421,-46.825,Intermediate,Choppy
+Sumba,Asia,Indonesia,-31.4267,152.2101,Intermediate,Flat
+Tarifa,Europe,Spain,26.3741,-43.4012,Advanced,Flat
+Lagos,Europe,Portugal,-17.7346,96.252,Intermediate,Choppy
+Leucate,Europe,France,-24.4771,108.9928,Beginner,Flat
+Lo Stagnone,Europe,Italy,16.3258,6.9011,Advanced,Choppy
+Paros,Europe,Greece,-29.059,150.1783,Advanced,Flat
+Scheveningen,Europe,Netherlands,-39.7682,-30.3476,Advanced,Waves
+Perth,Oceania,Australia,-10.0802,28.9228,Beginner,Waves
+Raglan,Oceania,New Zealand,-36.3924,48.8144,Beginner,Flat
+Cape Hatteras,North America,USA,-24.9674,72.4903,Advanced,Choppy
+Isla Blanca,North America,Mexico,-19.6074,120.5273,Beginner,Choppy
+Lake Erie,North America,Canada,-28.9799,10.3388,Advanced,Waves
+Jericoacoara,South America,Brazil,34.3456,145.808,Beginner,Choppy
+Cumbuco,South America,Brazil,-10.4247,40.6382,Advanced,Choppy
+Santa Veronica,South America,Colombia,13.8704,139.8814,Intermediate,Waves
+Paracas,South America,Peru,13.5551,20.8523,Advanced,Waves
+Dakhla,Africa,Morocco,12.0721,-64.759,Advanced,Waves
+El Gouna,Africa,Egypt,6.5555,91.1699,Intermediate,Choppy
+Watamu,Africa,Kenya,37.4113,40.9795,Beginner,Flat
+Cape Town,Africa,South Africa,15.3365,-60.2583,Beginner,Waves
+Le Morne,Africa,Mauritius,-23.4994,32.3563,Advanced,Waves
+Mui Ne,Asia,Vietnam,19.7214,-21.7343,Advanced,Waves
+Kalpitiya,Asia,Sri Lanka,4.5287,30.2157,Intermediate,Flat
+Phuket,Asia,Thailand,-1.9001,58.8026,Beginner,Choppy
+Boracay,Asia,Philippines,-36.1765,14.0602,Beginner,Flat
+Sumba,Asia,Indonesia,13.7676,124.6695,Beginner,Flat
+Tarifa,Europe,Spain,33.1605,124.3752,Beginner,Flat
+Lagos,Europe,Portugal,-15.6443,125.9463,Advanced,Flat
+Leucate,Europe,France,20.4737,-56.0852,Intermediate,Waves
+Lo Stagnone,Europe,Italy,-12.5049,-18.4831,Intermediate,Waves
+Paros,Europe,Greece,-32.3383,-37.5224,Beginner,Choppy
+Scheveningen,Europe,Netherlands,14.9475,-40.1106,Advanced,Choppy
+Perth,Oceania,Australia,-18.6687,-73.7911,Advanced,Waves
+Raglan,Oceania,New Zealand,28.7839,-25.346,Beginner,Choppy
+Cape Hatteras,North America,USA,-18.1592,89.836,Advanced,Waves
+Isla Blanca,North America,Mexico,11.774,33.4363,Beginner,Flat
+Lake Erie,North America,Canada,-10.3906,-15.9898,Beginner,Flat
+Jericoacoara,South America,Brazil,-11.114,30.5965,Intermediate,Waves
+Cumbuco,South America,Brazil,8.5212,-18.6567,Intermediate,Flat
+Santa Veronica,South America,Colombia,-7.0474,-25.8283,Beginner,Waves
+Paracas,South America,Peru,-27.1185,79.4464,Intermediate,Waves
+Dakhla,Africa,Morocco,-10.2036,137.0799,Beginner,Choppy
+El Gouna,Africa,Egypt,-15.9167,-24.0901,Advanced,Choppy
+Watamu,Africa,Kenya,-39.4177,-19.8522,Beginner,Choppy
+Cape Town,Africa,South Africa,3.5738,133.6977,Beginner,Waves
+Le Morne,Africa,Mauritius,-36.2262,-14.6211,Advanced,Choppy
+Mui Ne,Asia,Vietnam,-30.0596,1.0811,Advanced,Choppy
+Kalpitiya,Asia,Sri Lanka,-25.6747,96.3344,Intermediate,Choppy
+Phuket,Asia,Thailand,34.5734,-25.9066,Beginner,Waves
+Boracay,Asia,Philippines,15.4122,20.1176,Advanced,Flat
+Sumba,Asia,Indonesia,25.3845,35.5158,Beginner,Choppy
+Tarifa,Europe,Spain,18.8184,92.1469,Advanced,Waves
+Lagos,Europe,Portugal,-1.6977,100.7879,Beginner,Waves
+Leucate,Europe,France,22.5284,-61.4473,Advanced,Waves
+Lo Stagnone,Europe,Italy,28.8182,76.5363,Intermediate,Choppy
+Paros,Europe,Greece,29.4194,27.0334,Intermediate,Choppy
+Scheveningen,Europe,Netherlands,-22.2685,106.8723,Intermediate,Flat
+Perth,Oceania,Australia,15.9454,20.4487,Intermediate,Flat
+Raglan,Oceania,New Zealand,-34.6861,52.8993,Advanced,Waves
+Cape Hatteras,North America,USA,-28.7973,98.7466,Advanced,Choppy
+Isla Blanca,North America,Mexico,2.2573,7.8157,Advanced,Choppy
+Lake Erie,North America,Canada,-6.0219,-32.9269,Advanced,Flat
+Jericoacoara,South America,Brazil,-14.0217,11.2905,Intermediate,Waves
+Cumbuco,South America,Brazil,2.6725,-61.2793,Intermediate,Flat
+Santa Veronica,South America,Colombia,-15.8466,-4.1088,Advanced,Choppy
+Paracas,South America,Peru,17.5803,114.566,Beginner,Choppy
+Dakhla,Africa,Morocco,2.9945,54.8139,Beginner,Waves
+El Gouna,Africa,Egypt,20.4518,105.7027,Beginner,Waves
+Watamu,Africa,Kenya,-9.0843,113.8654,Advanced,Waves
+Cape Town,Africa,South Africa,33.1324,111.7506,Intermediate,Waves
+Le Morne,Africa,Mauritius,26.3758,6.0468,Advanced,Choppy
+Mui Ne,Asia,Vietnam,-19.0978,97.7859,Beginner,Choppy
+Kalpitiya,Asia,Sri Lanka,23.0043,93.1264,Intermediate,Choppy
+Phuket,Asia,Thailand,-0.2788,132.0107,Beginner,Flat
+Boracay,Asia,Philippines,9.9244,136.5073,Advanced,Choppy
+Sumba,Asia,Indonesia,16.2188,-72.8077,Beginner,Waves
+Tarifa,Europe,Spain,16.3555,-62.7973,Advanced,Waves
+Lagos,Europe,Portugal,22.1196,82.9553,Beginner,Choppy
+Leucate,Europe,France,-28.8317,40.068,Beginner,Waves
+Lo Stagnone,Europe,Italy,-25.969,150.6124,Beginner,Waves
+Paros,Europe,Greece,37.8414,60.1615,Intermediate,Choppy
+Scheveningen,Europe,Netherlands,0.3357,6.4324,Advanced,Choppy
+Perth,Oceania,Australia,30.0867,12.7267,Beginner,Waves
+Raglan,Oceania,New Zealand,19.4611,114.2158,Beginner,Flat
+Cape Hatteras,North America,USA,18.7569,13.1672,Advanced,Waves
+Isla Blanca,North America,Mexico,33.891,-3.9245,Advanced,Waves
+Lake Erie,North America,Canada,-34.2579,83.4789,Intermediate,Choppy
+Jericoacoara,South America,Brazil,-33.1823,89.5558,Intermediate,Flat
+Cumbuco,South America,Brazil,39.1372,22.7135,Advanced,Waves
+Santa Veronica,South America,Colombia,-39.3859,131.8042,Intermediate,Choppy
+Paracas,South America,Peru,20.9896,-20.6777,Beginner,Waves
+Dakhla,Africa,Morocco,22.1546,-20.1298,Advanced,Choppy
+El Gouna,Africa,Egypt,13.9258,-11.546,Intermediate,Waves
+Watamu,Africa,Kenya,-24.6918,-13.2477,Intermediate,Waves
+Cape Town,Africa,South Africa,1.6141,-9.0084,Advanced,Choppy
+Le Morne,Africa,Mauritius,0.2467,53.9712,Beginner,Flat
+Mui Ne,Asia,Vietnam,-6.1638,86.5879,Beginner,Flat
+Kalpitiya,Asia,Sri Lanka,-3.2109,-9.5986,Beginner,Waves
+Phuket,Asia,Thailand,-18.1272,9.4882,Advanced,Choppy
+Boracay,Asia,Philippines,2.3721,-49.8805,Intermediate,Waves
+Sumba,Asia,Indonesia,13.9112,67.7846,Intermediate,Waves
+Tarifa,Europe,Spain,-30.3454,-76.3438,Advanced,Choppy
+Lagos,Europe,Portugal,-17.2446,33.0989,Intermediate,Flat
+Leucate,Europe,France,34.8042,6.2224,Intermediate,Choppy
+Lo Stagnone,Europe,Italy,-21.7758,135.1526,Beginner,Flat
+Paros,Europe,Greece,0.4041,8.9537,Intermediate,Choppy
+Scheveningen,Europe,Netherlands,-22.3521,29.1827,Advanced,Choppy
+Perth,Oceania,Australia,4.8657,63.3912,Beginner,Choppy
+Raglan,Oceania,New Zealand,14.4274,71.2361,Advanced,Choppy
+Cape Hatteras,North America,USA,-32.2676,104.2467,Advanced,Choppy
+Isla Blanca,North America,Mexico,19.9844,12.6196,Beginner,Choppy
+Lake Erie,North America,Canada,28.4047,44.074,Intermediate,Waves
+Jericoacoara,South America,Brazil,31.0073,100.4244,Intermediate,Flat
+Cumbuco,South America,Brazil,34.0818,77.7684,Intermediate,Flat
+Santa Veronica,South America,Colombia,5.1383,147.8555,Intermediate,Flat
+Paracas,South America,Peru,-2.0553,14.7247,Intermediate,Flat
+Dakhla,Africa,Morocco,-30.2073,-54.0516,Beginner,Waves
+El Gouna,Africa,Egypt,3.0723,123.818,Intermediate,Flat
+Watamu,Africa,Kenya,1.8089,156.0462,Intermediate,Waves
+Cape Town,Africa,South Africa,36.9871,100.5889,Beginner,Choppy
+Le Morne,Africa,Mauritius,-31.9871,119.4221,Intermediate,Waves
+Mui Ne,Asia,Vietnam,-29.002,155.2096,Advanced,Choppy
+Kalpitiya,Asia,Sri Lanka,0.7788,-46.9826,Advanced,Flat
+Phuket,Asia,Thailand,-2.42,85.4202,Advanced,Choppy
+Boracay,Asia,Philippines,25.947,6.2315,Intermediate,Waves
+Sumba,Asia,Indonesia,-37.5998,142.933,Beginner,Waves
+Tarifa,Europe,Spain,29.9247,76.8695,Advanced,Waves
+Lagos,Europe,Portugal,-32.0533,-10.7178,Beginner,Waves
+Leucate,Europe,France,-33.765,28.6649,Beginner,Waves
+Lo Stagnone,Europe,Italy,0.7664,-76.9016,Intermediate,Choppy
+Paros,Europe,Greece,-2.8625,37.806,Advanced,Waves
+Scheveningen,Europe,Netherlands,-26.8106,146.5989,Advanced,Flat
+Perth,Oceania,Australia,-33.9495,41.4095,Intermediate,Choppy
+Raglan,Oceania,New Zealand,6.8008,-43.4217,Intermediate,Choppy
+Cape Hatteras,North America,USA,8.7889,29.6148,Advanced,Waves
+Isla Blanca,North America,Mexico,-0.7873,31.4823,Beginner,Flat
+Lake Erie,North America,Canada,27.3815,89.7369,Intermediate,Waves
+Jericoacoara,South America,Brazil,15.7395,79.427,Intermediate,Flat
+Cumbuco,South America,Brazil,24.4347,82.3623,Beginner,Flat
+Santa Veronica,South America,Colombia,38.8914,121.7799,Intermediate,Choppy
+Paracas,South America,Peru,21.8622,-23.7776,Beginner,Flat
+Dakhla,Africa,Morocco,-20.5983,-47.5565,Beginner,Flat
+El Gouna,Africa,Egypt,26.4887,-31.637,Advanced,Waves
+Watamu,Africa,Kenya,33.3726,77.2822,Beginner,Choppy
+Cape Town,Africa,South Africa,-9.6001,-60.1833,Advanced,Waves
+Le Morne,Africa,Mauritius,-33.8082,109.7905,Beginner,Choppy
+Mui Ne,Asia,Vietnam,18.8793,113.2942,Intermediate,Flat
+Kalpitiya,Asia,Sri Lanka,18.35,12.7299,Advanced,Flat
+Phuket,Asia,Thailand,-21.1872,129.1739,Beginner,Flat
+Boracay,Asia,Philippines,8.7452,149.3794,Beginner,Flat
+Sumba,Asia,Indonesia,30.4099,77.1852,Advanced,Flat
+Tarifa,Europe,Spain,0.1773,34.0761,Advanced,Choppy
+Lagos,Europe,Portugal,11.2083,142.3374,Advanced,Waves
+Leucate,Europe,France,-19.873,-62.2726,Intermediate,Waves
+Lo Stagnone,Europe,Italy,36.2821,-73.3775,Advanced,Waves
+Paros,Europe,Greece,5.0251,-36.567,Advanced,Flat
+Scheveningen,Europe,Netherlands,-22.6442,28.0417,Beginner,Waves
+Perth,Oceania,Australia,-4.0239,82.6723,Advanced,Choppy
+Raglan,Oceania,New Zealand,-29.2983,117.6771,Intermediate,Choppy
+Cape Hatteras,North America,USA,30.0112,74.1412,Intermediate,Flat
+Isla Blanca,North America,Mexico,-15.646,42.5823,Beginner,Flat
+Lake Erie,North America,Canada,-17.9765,0.5015,Beginner,Choppy
+Jericoacoara,South America,Brazil,-36.2332,-12.2018,Beginner,Flat
+Cumbuco,South America,Brazil,-24.2952,65.4856,Intermediate,Waves
+Santa Veronica,South America,Colombia,10.0217,-27.9366,Advanced,Flat
+Paracas,South America,Peru,2.536,-29.6255,Intermediate,Choppy
+Dakhla,Africa,Morocco,9.2403,-23.5525,Beginner,Flat
+El Gouna,Africa,Egypt,18.677,126.6498,Advanced,Flat
+Watamu,Africa,Kenya,5.7573,50.0055,Advanced,Choppy
+Cape Town,Africa,South Africa,7.9275,61.0493,Intermediate,Flat
+Le Morne,Africa,Mauritius,5.5071,53.5875,Intermediate,Flat
+Mui Ne,Asia,Vietnam,-12.7714,39.7629,Beginner,Choppy
+Kalpitiya,Asia,Sri Lanka,-38.375,-6.2753,Intermediate,Waves
+Phuket,Asia,Thailand,-15.134,10.2178,Advanced,Choppy
+Boracay,Asia,Philippines,13.2671,-44.3487,Advanced,Flat
+Sumba,Asia,Indonesia,6.0366,71.5327,Advanced,Choppy
+Tarifa,Europe,Spain,11.5347,-77.2851,Beginner,Choppy
+Lagos,Europe,Portugal,-27.0727,89.2821,Intermediate,Waves
+Leucate,Europe,France,4.1106,80.7329,Intermediate,Flat
+Lo Stagnone,Europe,Italy,-7.9705,139.0616,Intermediate,Flat
+Paros,Europe,Greece,35.6963,18.5429,Advanced,Waves
+Scheveningen,Europe,Netherlands,21.8466,-39.1065,Advanced,Flat
+Perth,Oceania,Australia,-13.3304,-52.0331,Beginner,Flat
+Raglan,Oceania,New Zealand,-31.2567,108.3898,Intermediate,Choppy
+Cape Hatteras,North America,USA,39.4789,-54.9993,Intermediate,Flat
+Isla Blanca,North America,Mexico,33.7338,-50.0532,Beginner,Waves
+Lake Erie,North America,Canada,12.8651,42.9796,Advanced,Choppy
+Jericoacoara,South America,Brazil,-8.3338,-17.5434,Intermediate,Waves
+Cumbuco,South America,Brazil,-2.3534,155.3015,Intermediate,Waves
+Santa Veronica,South America,Colombia,4.9426,60.9213,Advanced,Waves
+Paracas,South America,Peru,13.2213,-20.9621,Intermediate,Flat
+Dakhla,Africa,Morocco,38.6354,19.7983,Beginner,Choppy
+El Gouna,Africa,Egypt,-29.5344,42.5932,Intermediate,Flat
+Watamu,Africa,Kenya,29.5837,-49.803,Beginner,Waves
+Cape Town,Africa,South Africa,10.2919,114.7435,Advanced,Flat
+Le Morne,Africa,Mauritius,-30.8336,104.169,Beginner,Choppy
+Mui Ne,Asia,Vietnam,-7.2967,-25.1126,Advanced,Choppy
+Kalpitiya,Asia,Sri Lanka,6.2457,-65.3562,Advanced,Flat
+Phuket,Asia,Thailand,22.8269,-26.4504,Intermediate,Choppy
+Boracay,Asia,Philippines,27.3957,55.1602,Beginner,Choppy
+Sumba,Asia,Indonesia,-23.9231,-74.4415,Intermediate,Choppy
+Tarifa,Europe,Spain,22.5658,59.4268,Beginner,Choppy
+Lagos,Europe,Portugal,17.5755,-65.5759,Advanced,Flat
+Leucate,Europe,France,-3.2534,99.0854,Intermediate,Flat
+Lo Stagnone,Europe,Italy,-34.241,123.3193,Advanced,Flat
+Paros,Europe,Greece,-25.5809,60.9489,Intermediate,Waves
+Scheveningen,Europe,Netherlands,-37.6922,18.4324,Advanced,Choppy
+Perth,Oceania,Australia,-18.7975,30.2931,Beginner,Flat
+Raglan,Oceania,New Zealand,8.1854,113.0892,Beginner,Waves
+Cape Hatteras,North America,USA,30.3844,-63.9811,Intermediate,Choppy
+Isla Blanca,North America,Mexico,33.5916,109.3601,Beginner,Flat
+Lake Erie,North America,Canada,-9.4104,-19.6517,Beginner,Choppy
+Jericoacoara,South America,Brazil,31.6728,-65.3398,Advanced,Choppy
+Cumbuco,South America,Brazil,-23.4818,112.9323,Intermediate,Choppy
+Santa Veronica,South America,Colombia,14.516,-45.3978,Advanced,Waves
+Paracas,South America,Peru,-31.8281,62.1809,Intermediate,Choppy
+Dakhla,Africa,Morocco,21.8563,146.4599,Intermediate,Choppy
+El Gouna,Africa,Egypt,-25.1234,112.5282,Advanced,Waves
+Watamu,Africa,Kenya,32.5716,-53.6427,Intermediate,Choppy
+Cape Town,Africa,South Africa,31.5528,-48.3376,Beginner,Flat
+Le Morne,Africa,Mauritius,5.5249,8.8253,Beginner,Waves
+Mui Ne,Asia,Vietnam,-8.0545,109.4942,Beginner,Waves
+Kalpitiya,Asia,Sri Lanka,-13.547,15.3684,Beginner,Flat
+Phuket,Asia,Thailand,-6.8993,59.648,Advanced,Waves
+Boracay,Asia,Philippines,27.162,-0.4294,Intermediate,Flat
+Sumba,Asia,Indonesia,0.4335,56.4513,Advanced,Choppy
+Tarifa,Europe,Spain,10.2904,42.6179,Advanced,Flat
+Lagos,Europe,Portugal,-9.5018,135.4078,Advanced,Choppy
+Leucate,Europe,France,36.3086,39.1133,Beginner,Flat
+Lo Stagnone,Europe,Italy,2.5267,11.432,Intermediate,Choppy
+Paros,Europe,Greece,5.0293,110.924,Intermediate,Flat
+Scheveningen,Europe,Netherlands,23.5268,31.2498,Intermediate,Flat
+Perth,Oceania,Australia,33.6192,128.4905,Advanced,Flat
+Raglan,Oceania,New Zealand,-25.8792,137.9952,Beginner,Choppy
+Cape Hatteras,North America,USA,36.4379,18.3334,Intermediate,Choppy
+Isla Blanca,North America,Mexico,9.7155,76.0893,Advanced,Flat
+Lake Erie,North America,Canada,-10.5629,46.1782,Advanced,Waves
+Jericoacoara,South America,Brazil,22.0537,127.5541,Intermediate,Choppy
+Cumbuco,South America,Brazil,29.5621,71.0463,Intermediate,Waves
+Santa Veronica,South America,Colombia,36.2297,49.91,Advanced,Flat
+Paracas,South America,Peru,25.8075,145.9061,Beginner,Waves
+Dakhla,Africa,Morocco,24.2703,-46.0592,Advanced,Choppy
+El Gouna,Africa,Egypt,-18.374,122.734,Advanced,Waves
+Watamu,Africa,Kenya,-35.1963,-63.0744,Advanced,Flat
+Cape Town,Africa,South Africa,29.2064,4.9117,Intermediate,Flat
+Le Morne,Africa,Mauritius,4.0605,53.6289,Advanced,Flat
+Mui Ne,Asia,Vietnam,7.8761,-57.148,Beginner,Choppy
+Kalpitiya,Asia,Sri Lanka,2.1029,116.2131,Intermediate,Flat
+Phuket,Asia,Thailand,1.9329,90.2716,Advanced,Waves
+Boracay,Asia,Philippines,25.5029,51.2717,Advanced,Waves
+Sumba,Asia,Indonesia,37.6563,104.132,Beginner,Flat
+Tarifa,Europe,Spain,14.3842,-55.4497,Advanced,Waves
+Lagos,Europe,Portugal,25.0782,140.1096,Beginner,Choppy
+Leucate,Europe,France,17.4276,141.3349,Beginner,Choppy
+Lo Stagnone,Europe,Italy,-38.7296,-17.7103,Advanced,Flat
+Paros,Europe,Greece,30.7495,43.6211,Advanced,Choppy
+Scheveningen,Europe,Netherlands,26.2823,141.0282,Intermediate,Choppy
+Perth,Oceania,Australia,-34.0777,-75.3907,Advanced,Choppy
+Raglan,Oceania,New Zealand,2.5974,135.5262,Intermediate,Choppy
+Cape Hatteras,North America,USA,6.6618,119.1612,Advanced,Choppy
+Isla Blanca,North America,Mexico,-25.0758,-42.6505,Intermediate,Choppy
+Lake Erie,North America,Canada,15.6369,8.0885,Intermediate,Waves
+Jericoacoara,South America,Brazil,39.8663,-38.7802,Intermediate,Choppy
+Cumbuco,South America,Brazil,-26.9793,-76.3755,Beginner,Waves
+Santa Veronica,South America,Colombia,26.6477,-68.7509,Advanced,Choppy
+Paracas,South America,Peru,-24.9262,129.0626,Advanced,Choppy
+Dakhla,Africa,Morocco,30.6401,-25.062,Beginner,Choppy
+El Gouna,Africa,Egypt,-32.1032,112.9949,Beginner,Waves
+Watamu,Africa,Kenya,-39.1428,-5.3062,Advanced,Choppy
+Cape Town,Africa,South Africa,1.4169,-49.5663,Advanced,Waves
+Le Morne,Africa,Mauritius,11.718,-23.2143,Beginner,Waves
+Mui Ne,Asia,Vietnam,19.4262,33.1252,Intermediate,Choppy
+Kalpitiya,Asia,Sri Lanka,5.2551,-74.7515,Intermediate,Choppy
+Phuket,Asia,Thailand,17.5233,-67.4898,Intermediate,Waves
+Boracay,Asia,Philippines,37.6837,149.2883,Advanced,Choppy
+Sumba,Asia,Indonesia,21.6583,106.3712,Advanced,Flat
+Tarifa,Europe,Spain,-4.0672,91.2494,Beginner,Choppy
+Lagos,Europe,Portugal,24.1786,-0.862,Intermediate,Flat
+Leucate,Europe,France,1.3189,-15.5894,Beginner,Waves
+Lo Stagnone,Europe,Italy,20.7834,-8.3834,Advanced,Choppy
+Paros,Europe,Greece,-21.0099,-17.3736,Advanced,Waves
+Scheveningen,Europe,Netherlands,11.7029,128.2827,Advanced,Flat
+Perth,Oceania,Australia,0.6008,20.898,Beginner,Waves
+Raglan,Oceania,New Zealand,19.0214,121.1814,Intermediate,Flat
+Cape Hatteras,North America,USA,-15.7022,80.1945,Advanced,Waves
+Isla Blanca,North America,Mexico,14.3242,16.9511,Advanced,Waves
+Lake Erie,North America,Canada,-7.97,23.425,Beginner,Waves
+Jericoacoara,South America,Brazil,-33.4049,19.5939,Intermediate,Waves
+Cumbuco,South America,Brazil,-23.2993,37.1717,Beginner,Choppy
+Santa Veronica,South America,Colombia,-19.0275,84.1895,Beginner,Choppy
+Paracas,South America,Peru,13.233,116.9502,Beginner,Flat
+Dakhla,Africa,Morocco,-30.6069,47.9258,Advanced,Choppy
+El Gouna,Africa,Egypt,-17.3995,-7.5733,Advanced,Flat
+Watamu,Africa,Kenya,3.5378,135.1412,Intermediate,Choppy
+Cape Town,Africa,South Africa,17.8153,86.1557,Intermediate,Waves
+Le Morne,Africa,Mauritius,25.968,142.4379,Advanced,Flat
+Mui Ne,Asia,Vietnam,12.2599,114.2814,Intermediate,Flat
+Kalpitiya,Asia,Sri Lanka,37.9391,32.6047,Beginner,Waves
+Phuket,Asia,Thailand,14.1452,36.5032,Beginner,Flat
+Boracay,Asia,Philippines,21.7536,45.0828,Beginner,Choppy
+Sumba,Asia,Indonesia,-23.5858,-58.6576,Beginner,Flat
+Tarifa,Europe,Spain,-22.1123,35.8554,Advanced,Waves
+Lagos,Europe,Portugal,20.1674,100.8403,Intermediate,Waves
+Leucate,Europe,France,-16.4569,48.6705,Beginner,Choppy
+Lo Stagnone,Europe,Italy,-15.9263,127.8692,Intermediate,Choppy
+Paros,Europe,Greece,-12.8534,108.1445,Beginner,Choppy
+Scheveningen,Europe,Netherlands,34.8309,33.1435,Advanced,Choppy
+Perth,Oceania,Australia,33.6958,-51.9477,Intermediate,Choppy
+Raglan,Oceania,New Zealand,-16.3181,16.6391,Advanced,Choppy
+Cape Hatteras,North America,USA,-36.7147,99.096,Beginner,Flat
+Isla Blanca,North America,Mexico,-1.6471,59.1313,Beginner,Flat
+Lake Erie,North America,Canada,-36.3716,137.8091,Advanced,Choppy
+Jericoacoara,South America,Brazil,-26.4468,-67.8495,Beginner,Flat
+Cumbuco,South America,Brazil,16.3699,-59.5787,Advanced,Waves
+Santa Veronica,South America,Colombia,36.5865,1.9563,Advanced,Choppy
+Paracas,South America,Peru,-20.1624,-1.6712,Intermediate,Choppy
+Dakhla,Africa,Morocco,2.533,80.059,Advanced,Choppy
+El Gouna,Africa,Egypt,19.1444,150.5323,Beginner,Choppy
+Watamu,Africa,Kenya,-31.9276,60.6467,Advanced,Flat
+Cape Town,Africa,South Africa,26.5923,28.7216,Beginner,Choppy
+Le Morne,Africa,Mauritius,-2.3813,52.8059,Advanced,Choppy
+Mui Ne,Asia,Vietnam,19.3245,28.9515,Advanced,Flat
+Kalpitiya,Asia,Sri Lanka,-6.5613,-11.9035,Intermediate,Waves
+Phuket,Asia,Thailand,27.6537,120.5111,Intermediate,Waves
+Boracay,Asia,Philippines,-21.769,75.791,Advanced,Flat
+Sumba,Asia,Indonesia,19.2813,34.727,Intermediate,Waves
+Tarifa,Europe,Spain,9.2431,-5.8055,Beginner,Choppy
+Lagos,Europe,Portugal,30.9254,-17.4869,Intermediate,Flat
+Leucate,Europe,France,-26.5192,3.5145,Advanced,Waves
+Lo Stagnone,Europe,Italy,-0.0672,71.8802,Advanced,Flat
+Paros,Europe,Greece,-33.6029,67.0633,Beginner,Flat
+Scheveningen,Europe,Netherlands,8.6438,9.6621,Advanced,Waves
+Perth,Oceania,Australia,-7.7513,-30.1054,Advanced,Waves
+Raglan,Oceania,New Zealand,9.0823,1.7828,Intermediate,Flat
+Cape Hatteras,North America,USA,3.3955,3.4038,Beginner,Flat
+Isla Blanca,North America,Mexico,-35.4758,-2.1198,Intermediate,Choppy
+Lake Erie,North America,Canada,-22.7389,-46.4846,Beginner,Waves
+Jericoacoara,South America,Brazil,18.0908,102.9337,Advanced,Choppy
+Cumbuco,South America,Brazil,-34.7129,47.182,Advanced,Waves
+Santa Veronica,South America,Colombia,3.8321,32.5725,Beginner,Waves
+Paracas,South America,Peru,-19.5242,-3.988,Advanced,Waves
