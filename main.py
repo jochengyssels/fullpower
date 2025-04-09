@@ -1,82 +1,163 @@
-import os
-from fastapi import FastAPI, Depends, HTTPException
+from fastapi import FastAPI, Depends, HTTPException, Request
+from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy import text
 import logging
+import os
 
-# Import database and models
-from database import get_db, engine, Base
-import models
+from database import get_db_session, init_db, check_db_connection
 
 # Configure logging
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-)
-logger = logging.getLogger("railway-app")
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
-# Create FastAPI app
-app = FastAPI(
-    title="Full Power API",
-    description="API for the Full Power kitesurfing application",
-    version="0.1.0",
-)
+app = FastAPI()
 
-# Configure CORS
+# Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["*"],  # For development. In production, specify your frontend URL
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Startup event
+# Global flag to track database status
+db_connected = False
+
 @app.on_event("startup")
 async def startup_event():
+    global db_connected
     logger.info("Application startup")
-    # Create tables
-    async with engine.begin() as conn:
-        try:
-            # This will create tables that don't exist yet
-            await conn.run_sync(Base.metadata.create_all)
-            logger.info("Database tables created successfully")
-        except Exception as e:
-            logger.error(f"Error creating database tables: {e}")
+    try:
+        # Check database connection first
+        db_connected = await check_db_connection()
+        
+        if db_connected:
+            # Only initialize database if connection is successful
+            db_initialized = await init_db()
+            if not db_initialized:
+                logger.warning("Database connection successful but initialization failed")
+        else:
+            logger.warning("Application started but database connection failed")
+            logger.warning("Check your DATABASE_URL environment variable")
+            logger.warning(f"Current DATABASE_URL prefix: {os.getenv('DATABASE_URL', 'Not set').split('@')[0] if os.getenv('DATABASE_URL') else 'Not set'}")
+    except Exception as e:
+        logger.error(f"Startup error: {str(e)}")
+        logger.exception("Full exception details:")
+        # Allow app to start even with errors for debugging
 
-# Root endpoint
-@app.get("/")
-async def root():
-    logger.info("Root endpoint called")
-    return {"message": "Welcome to Full Power API"}
+@app.middleware("http")
+async def db_session_middleware(request: Request, call_next):
+    """Middleware to check database connection for each request"""
+    global db_connected
+    
+    # Skip database check for health endpoint
+    if request.url.path == "/health":
+        return await call_next(request)
+    
+    # Check if database is connected
+    if not db_connected:
+        # Try to reconnect
+        db_connected = await check_db_connection()
+        
+        # If still not connected, return error for database-dependent endpoints
+        if not db_connected and request.url.path.startswith(("/kitespots", "/api")):
+            return JSONResponse(
+                status_code=503,
+                content={"detail": "Database connection unavailable. Please try again later."}
+            )
+    
+    return await call_next(request)
 
-# Health check endpoint
 @app.get("/health")
 async def health_check():
-    logger.info("Health check called")
-    return {"status": "ok", "message": "API is running"}
-
-# Database health check endpoint
-@app.get("/health/db")
-async def db_health_check(db: AsyncSession = Depends(get_db)):
-    logger.info("Database health check called")
-    try:
-        # Simple query to test database connection
-        result = await db.execute(text("SELECT 1"))
-        if result.scalar() == 1:
-            return {"status": "ok", "message": "Database connection successful"}
-        else:
-            logger.error("Database health check failed: unexpected result")
-            raise HTTPException(status_code=500, detail="Database health check failed")
-    except Exception as e:
-        logger.error(f"Database health check failed: {e}", exc_info=True)
-        raise HTTPException(status_code=500, detail=f"Database connection failed: {str(e)}")
-
-# Run the application
-if __name__ == "__main__":
-    import uvicorn
+    """Health check endpoint"""
+    global db_connected
     
-    port = int(os.environ.get("PORT", 8000))
-    logger.info(f"Starting server on port {port}")
-    uvicorn.run("main:app", host="0.0.0.0", port=port, reload=False)
+    # Try to check connection if currently disconnected
+    if not db_connected:
+        db_connected = await check_db_connection()
+    
+    return {
+        "status": "healthy" if db_connected else "unhealthy",
+        "database": "connected" if db_connected else "disconnected",
+        "database_url_set": os.getenv("DATABASE_URL") is not None
+    }
+
+# Example route using database
+@app.get("/api/kitespots/")
+async def get_kitespots(db: AsyncSession = Depends(get_db_session)):
+    try:
+        # Example query - adjust based on your actual models and schema
+        result = await db.execute("SELECT * FROM kitespots LIMIT 10")
+        spots = result.fetchall()
+        return spots
+    except Exception as e:
+        logger.error(f"Error fetching kitespots: {str(e)}")
+        # If database error, try the fallback
+        return await get_kitespots_fallback()
+
+# Fallback route for when database is unavailable
+@app.get("/api/kitespots/fallback")
+async def get_kitespots_fallback():
+    """Fallback endpoint that doesn't require database access"""
+    logger.info("Using fallback kite spots data")
+    return [
+        {"id": "1", "name": "Punta Trettu", "country": "Italy", "latitude": 39.1833, "longitude": 8.3167},
+        {"id": "2", "name": "Dakhla", "country": "Morocco", "latitude": 23.7136, "longitude": -15.9355},
+        {"id": "3", "name": "Tarifa", "country": "Spain", "latitude": 36.0143, "longitude": -5.6044},
+        {"id": "4", "name": "Jericoacoara", "country": "Brazil", "latitude": -2.7975, "longitude": -40.5137},
+        {"id": "5", "name": "Cabarete", "country": "Dominican Republic", "latitude": 19.758, "longitude": -70.4193},
+        {"id": "6", "name": "Cape Town", "country": "South Africa", "latitude": -33.9249, "longitude": 18.4241},
+    ]
+
+# Nearest kite spot endpoint
+@app.get("/api/kitespots/nearest")
+async def get_nearest_kitespot(lat: float, lng: float, db: AsyncSession = Depends(get_db_session)):
+    try:
+        # In a real implementation, you would use a spatial query to find the nearest spot
+        # For now, we'll just return a mock response
+        return {
+            "id": "3",
+            "name": "Tarifa",
+            "country": "Spain",
+            "latitude": 36.0143,
+            "longitude": -5.6044
+        }
+    except Exception as e:
+        logger.error(f"Error finding nearest kitespot: {str(e)}")
+        # Return a default spot
+        return {
+            "id": "3",
+            "name": "Tarifa",
+            "country": "Spain",
+            "latitude": 36.0143,
+            "longitude": -5.6044
+        }
+
+# Weather data endpoint
+@app.get("/api/kitespots/{spot_id}/weather")
+async def get_kitespot_weather(spot_id: str, db: AsyncSession = Depends(get_db_session)):
+    try:
+        # In a real implementation, you would fetch weather data from the database
+        # For now, we'll just return mock data
+        return {
+            "spot_id": spot_id,
+            "timestamp": "2023-05-01T12:00:00Z",
+            "temperature": 22.5,
+            "wind_speed_10m": 15.3,
+            "wind_direction_10m": 90,
+            "wind_gust": 18.7
+        }
+    except Exception as e:
+        logger.error(f"Error fetching weather data: {str(e)}")
+        # Return mock data
+        return {
+            "spot_id": spot_id,
+            "timestamp": "2023-05-01T12:00:00Z",
+            "temperature": 22.5,
+            "wind_speed_10m": 15.3,
+            "wind_direction_10m": 90,
+            "wind_gust": 18.7
+        }

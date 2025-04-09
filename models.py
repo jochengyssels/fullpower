@@ -5,7 +5,7 @@ from sqlalchemy.sql import func
 from database import Base
 
 
-Base = declarative_base()
+##Base = declarative_base()
 
 # Simple User model
 class User(Base):
