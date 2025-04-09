@@ -1,43 +1,39 @@
-from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import sessionmaker
 import os
-from dotenv import load_dotenv
-from sqlalchemy.dialects.postgresql import TIMESTAMP
+from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession
+from sqlalchemy.orm import sessionmaker
+import logging
 
-# Load environment variables
-load_dotenv()
+logger = logging.getLogger("railway-app.database")
 
-# PostgreSQL connection string
+# Get database URL from environment variable
 DATABASE_URL = os.getenv("DATABASE_URL", "postgresql+asyncpg://kiteuser:fullpower@localhost/kitesurf")
 
-# Create async engine
-engine = create_async_engine(
-    DATABASE_URL,
-    echo=False,
-    connect_args={
-        "server_settings": {
-            "timezone": "UTC"
-        }
-    }
-)
+# Create async engine with simplified parameters
+try:
+    engine = create_async_engine(
+        DATABASE_URL,
+        echo=False,
+        pool_pre_ping=True
+    )
+    logger.info("Database engine created successfully")
+except Exception as e:
+    logger.error(f"Failed to create database engine: {e}", exc_info=True)
+    raise
 
-# SessionLocal class
-async_session = sessionmaker(
+# Create async session factory
+async_session_factory = sessionmaker(
     engine, class_=AsyncSession, expire_on_commit=False
 )
 
-# Base class for models
-Base = declarative_base()
-
-# Dependency to get DB session
+# Dependency for FastAPI
 async def get_db():
-    async with async_session() as session:
-        try:
-            yield session
-            await session.commit()
-        except Exception:
-            await session.rollback()
-            raise
-        finally:
-            await session.close()
+    """
+    Dependency that provides a database session
+    """
+    session = async_session_factory()
+    try:
+        logger.debug("Database session created")
+        yield session
+    finally:
+        logger.debug("Database session closed")
+        await session.close()
