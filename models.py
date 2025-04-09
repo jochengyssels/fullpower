@@ -4,6 +4,10 @@ from sqlalchemy.orm import relationship
 from sqlalchemy.sql import func
 from database import Base
 
+
+Base = declarative_base()
+
+# Simple User model
 class User(Base):
     __tablename__ = "users"
 
@@ -11,13 +15,8 @@ class User(Base):
     email = Column(String, unique=True, index=True)
     hashed_password = Column(String)
     is_active = Column(Boolean, default=True)
-    is_superuser = Column(Boolean, default=False)
     created_at = Column(DateTime, default=datetime.utcnow)
-    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
-    # Add relationships
-    favorite_spots = relationship("FavoriteSpot", back_populates="user")
-    sessions = relationship("KiteSession", back_populates="user")
 
 
 class KiteSpot(Base):
