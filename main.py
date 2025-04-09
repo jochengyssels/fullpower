@@ -20,11 +20,9 @@ from database import get_db
 import models
 import schemas
 import crud
-
 from models import KiteSchool, KiteSpot
-from sqlalchemy import select
-
-
+from sqlalchemy import select, text
+from sqlalchemy import Text
 from dotenv import load_dotenv
 
 # Load environment variables
