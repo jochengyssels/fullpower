@@ -1,12 +1,11 @@
 from fastapi import FastAPI, Query, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from typing import Dict, Any, List, Optional, Tuple
+from typing import Dict, Any, List, Optional
 import asyncio
 import aiohttp
 import logging
-from datetime import datetime, timedelta
+from datetime import datetime
 import os
-from pydantic import BaseModel
 
 # Import services
 from services.geocoding import geocode_location
@@ -20,8 +19,8 @@ from database import get_db
 import models
 import schemas
 import crud
-from models import KiteSchool
-from sqlalchemy import select
+from models import KiteSchool, KiteSpot
+from sqlalchemy import Text, select
 
 
 from dotenv import load_dotenv
@@ -221,7 +220,7 @@ async def get_kitespot_weather(
         raise HTTPException(status_code=404, detail="Kitespot not found")
     
     # Get weather data
-    result = await db.execute(text("""
+    result = await db.execute(Text("""
     SELECT 
         timestamp, temperature, humidity, precipitation, rain,
         wind_speed_10m, wind_speed_80m, wind_speed_120m,
